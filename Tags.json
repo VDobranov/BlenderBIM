@@ -1,0 +1,1 @@
+{"expression": ".IfcAnnotation[Name=\"TEXT\"]", "attributes": ["Representation.Representations.0.Items.0.Literal", "Representation.Representations.0.Items.0.BoxAlignment"]}

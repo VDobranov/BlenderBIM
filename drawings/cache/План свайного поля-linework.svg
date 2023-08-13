@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.ifcopenshell.org/ns" width="500mm" height="500mm" viewBox="0 0 500 500">
+    <defs>
+        <marker id="arrowend" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+        <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+          <polygon points="10 0, 0 3.5, 10 7"/>
+        </marker>
+    </defs>
+    <g ifc:name="Elevation &#1055;&#1083;&#1072;&#1085; &#1089;&#1074;&#1072;&#1081;&#1085;&#1086;&#1075;&#1086; &#1087;&#1086;&#1083;&#1103;" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,1.600000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,129.999998],[0.000000,10.000000,279.999995],[0.000000,0.000000,1.000000]]">
+        <g class="projection">
+            <path d="M136,286 L133,286"/>
+            <path d="M133,283 L133,286"/>
+            <path d="M133,283 L136,283"/>
+            <path d="M136,283 L136,286"/>
+            <path d="M127,286 L127,283"/>
+            <path d="M124,286 L127,286"/>
+            <path d="M124,283 L124,286"/>
+            <path d="M127,283 L124,283"/>
+            <path d="M136,277 L136,274"/>
+            <path d="M133,277 L136,277"/>
+            <path d="M133,274 L133,277"/>
+            <path d="M136,274 L133,274"/>
+            <path d="M127,277 L127,274"/>
+            <path d="M124,277 L127,277"/>
+            <path d="M124,274 L124,277"/>
+            <path d="M127,274 L124,274"/>
+        </g>
+    </g>
+</svg>

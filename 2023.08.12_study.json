@@ -1,0 +1,1 @@
+{"expression": ".IfcColumn|.IfcBeam|.IfcMember|.IfcColumnType|.IfcBeamType|.IfcMemberType", "attributes": ["Name", "Tag"]}

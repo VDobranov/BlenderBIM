@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="500.0mm" id="root" version="1.1" viewBox="0 0 500.0 500.0" width="500.0mm">
+  <defs/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(128.0, 282.0) rotate(-0.0)">
+    <tspan class="GlobalId-2jIIDcVo5EWe_txMlgIcgM IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">1</tspan>
+  </text>
+  <line class="GlobalId-0q8QZW3rb2SPwDU4tBLOTk IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="190.0" x2="190.0" y1="300.0" y2="200.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="190.0" y="300.0">2</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="190.0" y="200.0">2</text>
+  <line class="GlobalId-35OttUpQbDGg4Q6pA9Nv0q IfcAnnotation PredefinedType-DIMENSION" x1="120.0" x2="120.0" y1="280.0" y2="220.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(119.0, 250.0) rotate(-90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">6.000</tspan>
+  </text>
+  <line class="GlobalId-2RsO2YF0z8kRaYUcxxvTkF IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="250.0" x2="250.0" y1="300.0" y2="200.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="250.0" y="300.0">3</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="250.0" y="200.0">3</text>
+  <line class="GlobalId-2HnDodO29DZwKODqYvInOD IfcAnnotation PredefinedType-LINEWORK" x1="122.0" x2="138.0" y1="284.5" y2="284.5"/>
+  <line class="GlobalId-2HnDodO29DZwKODqYvInOD IfcAnnotation PredefinedType-LINEWORK" x1="122.0" x2="138.0" y1="275.5" y2="275.5"/>
+  <line class="GlobalId-2HnDodO29DZwKODqYvInOD IfcAnnotation PredefinedType-LINEWORK" x1="134.5" x2="134.5" y1="288.0" y2="272.0"/>
+  <line class="GlobalId-2HnDodO29DZwKODqYvInOD IfcAnnotation PredefinedType-LINEWORK" x1="125.5" x2="125.5" y1="288.0" y2="272.0"/>
+  <line class="GlobalId-1iPm62mY92688M$AnA8WVY IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="310.0" x2="310.0" y1="300.0" y2="200.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="310.0" y="300.0">4</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="310.0" y="200.0">4</text>
+  <line class="GlobalId-1ATYYxBe9CL9AMVlmI13mq IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="110.0" x2="379.9985046386719" y1="280.0" y2="280.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.0" y="280.0">А</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="379.9985046386719" y="280.0">А</text>
+  <line class="GlobalId-0of$lIo1L60wVEuC6qAncs IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="370.0" x2="370.0" y1="300.0" y2="200.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="370.0" y="300.0">5</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="370.0" y="200.0">5</text>
+  <line class="GlobalId-1rPtb06W564BTZSQU$dYrX IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="110.0" x2="379.9985046386719" y1="220.0" y2="220.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="110.0" y="220.0">Б</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="379.9985046386719" y="220.0">Б</text>
+  <line class="GlobalId-0Ji5N7Qp98e8Z4KOayNejx IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="130.0" x2="130.0" y1="300.0" y2="200.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="130.0" y="300.0">1</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="130.0" y="200.0">1</text>
+  <line class="GlobalId-3ExIT1B5989RYvaTXqvAj8 IfcAnnotation PredefinedType-DIMENSION" x1="125.5" x2="130.0" y1="264.0" y2="264.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(133.0, 263.0) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.450</tspan>
+  </text>
+  <line class="GlobalId-03j7H4ZUXFYwZNTdjkU6CX IfcAnnotation PredefinedType-DIMENSION" x1="130.0" x2="134.5" y1="264.0" y2="264.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(137.5, 263.0) rotate(0.0)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.450</tspan>
+  </text>
+  <line class="GlobalId-09D47qFx5CEOPjOEwQLJS8 IfcAnnotation PredefinedType-DIMENSION" x1="146.0" x2="146.0" y1="275.5" y2="280.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(147.0, 283.0) rotate(90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.450</tspan>
+  </text>
+  <line class="GlobalId-2apdvhS5vDHBuvfYqkJHkz IfcAnnotation PredefinedType-DIMENSION" x1="146.0" x2="146.0" y1="280.0" y2="284.5"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(147.0, 287.5) rotate(90.00000250447816)">
+    <tspan class="DIMENSION" dy="0em" x="0" y="0">0.450</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(137.0, 273.0) rotate(-0.0)">
+    <tspan class="GlobalId-17Y1aPsBf6t9yrcgg$k1qe IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">4</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(137.0, 282.0) rotate(-0.0)">
+    <tspan class="GlobalId-1jky$L0kz4xwF6ggYnXEL$ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">2</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(128.0, 273.0) rotate(-0.0)">
+    <tspan class="GlobalId-3L_K_krzbEk8C6OYUaPuam IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">3</tspan>
+  </text>
+</svg>

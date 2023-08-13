@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:200" height="250.0mm" id="root" version="1.1" viewBox="0 0 250.0 250.0" width="250.0mm">
+  <defs/>
+  <line class="GlobalId-0hzvALG5T3HArcNCWwMj3N IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="25.0" x2="145.0" y1="140.0" y2="140.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.0" y="140.0">A</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="145.0" y="140.0">A</text>
+  <line class="GlobalId-06241EQnTAh8wxed88VbK8 IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="25.0" x2="145.0" y1="40.0" y2="40.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.0" y="40.0">C</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="145.0" y="40.0">C</text>
+  <line class="GlobalId-1Hl797dBz0beFSiafaEDEn IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="35.0" x2="35.0" y1="150.0" y2="30.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="35.0" y="150.0">1</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="35.0" y="30.0">1</text>
+  <line class="GlobalId-1arRS1VDn1IQqt7UA1Kvsx IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="85.0" x2="85.0" y1="150.0" y2="30.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="85.0" y="150.0">2</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="85.0" y="30.0">2</text>
+  <line class="GlobalId-3wFRSx_m9BX9xLUejV8MlH IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="135.0" x2="135.0" y1="150.0" y2="30.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="135.0" y="150.0">3</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="135.0" y="30.0">3</text>
+  <line class="GlobalId-0JFIMc2sj8Fwiot9ovg20V IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="25.0" x2="145.0" y1="90.0" y2="90.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="25.0" y="90.0">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="145.0" y="90.0">B</text>
+</svg>

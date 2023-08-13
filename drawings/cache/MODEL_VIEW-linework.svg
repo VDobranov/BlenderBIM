@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.ifcopenshell.org/ns" width="500mm" height="500mm" viewBox="0 0 500 500">
+    <defs>
+        <marker id="arrowend" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+          <polygon points="0 0, 10 3.5, 0 7"/>
+        </marker>
+        <marker id="arrowstart" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+          <polygon points="10 0, 0 3.5, 10 7"/>
+        </marker>
+    </defs>
+    <g ifc:name="Elevation MODEL_VIEW" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,0.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,249.999995],[0.000000,10.000000,249.999995],[0.000000,0.000000,1.000000]]">
+        <g class="projection">
+            <path d="M253,256 L253,253"/>
+            <path d="M256,256 L253,256"/>
+            <path d="M256,253 L256,256"/>
+            <path d="M253,253 L256,253"/>
+            <path d="M244,256 L244,253"/>
+            <path d="M247,256 L244,256"/>
+            <path d="M247,253 L247,256"/>
+            <path d="M244,253 L247,253"/>
+            <path d="M253,247 L253,244"/>
+            <path d="M256,247 L253,247"/>
+            <path d="M256,244 L256,247"/>
+            <path d="M253,244 L256,244"/>
+            <path d="M244,247 L244,244"/>
+            <path d="M247,247 L244,247"/>
+            <path d="M247,244 L247,247"/>
+            <path d="M244,244 L247,244"/>
+        </g>
+    <g id="product-0698d8f5-7cff-4034-970e-412a41e4d4f1-body" class="IfcPile material-null cut" ifc:name="&#1057;&#1074;&#1072;&#1103;" ifc:guid="06cDZrVFz0D9SEGIf1vDJn">
+            <path d="M244,244 L247,244 L247,247 L244,247 L244,244"/>
+        </g>
+        <g id="product-23f35093-e4b9-496f-a52f-0008cd637166-body" class="IfcPile material-null cut" ifc:name="&#1057;&#1074;&#1072;&#1103;" ifc:guid="0Zyr2JvBb9RwKl00ZDOt5c">
+            <path d="M253,244 L256,244 L256,247 L253,247 L253,244"/>
+        </g>
+        <g id="product-8b85f946-9730-4463-95df-1b4f9b942ff9-body" class="IfcPile material-null cut" ifc:name="&#1057;&#1074;&#1072;&#1103;" ifc:guid="2BXVb6bp14OvNV6q_Rb2$v">
+            <path d="M244,253 L247,253 L247,256 L244,256 L244,253"/>
+        </g>
+        <g id="product-85ba21c3-dbd1-4c7c-9679-3bb79fec50e0-body" class="IfcPile material-null cut" ifc:name="&#1057;&#1074;&#1072;&#1103;" ifc:guid="25kY73sz5CV9PvExUVx53W">
+            <path d="M253,253 L256,253 L256,256 L253,256 L253,253"/>
+        </g>
+        </g>
+</svg>

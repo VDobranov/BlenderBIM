@@ -1,0 +1,1 @@
+{"expression": ".IfcColumn|.IfcBeam|.IfcMember", "attributes": ["material.MaterialProfiles.Profile.ProfileName.0", "material.MaterialProfiles.Material.Name.0", "PredefinedType", "Qto_ColumnBaseQuantities.NetWeight", "Qto_BeamBaseQuantities.NetWeight", "Qto_MemberBaseQuantities.NetWeight"]}

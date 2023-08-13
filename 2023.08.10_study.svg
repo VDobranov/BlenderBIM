@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="87.91mm" id="root" version="1.1" viewBox="0 0 186.95000000000005 87.91" width="186.95000000000005mm">
+  <defs/>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="1"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="8.495000000000001">ЭЛЕМЕНТА</tspan>
+    <tspan dy="-1em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="8.495000000000001">МАРКА</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="70.0" x="21.0" y="1"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="56.0" y="8.495000000000001">СЕЧЕНИЕ</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="44.970000000000006" x="91.0" y="1"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.485" y="8.495000000000001">УСИЛИЯ ДЛЯ ПРИКРЕПЛЕНИЯ</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97" y="1"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.465" y="8.495000000000001">МЕТАЛЛА</tspan>
+    <tspan dy="-1em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.465" y="8.495000000000001">ИЛИ МАРКА</tspan>
+    <tspan dy="-2em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.465" y="8.495000000000001">НАИМЕНОВАНИЕ</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96" y="1"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="173.455" y="8.495000000000001">ПРИМЕЧАНИЕ</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="15.990000000000002"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="23.485000000000003">ЭСКИЗ</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="36.0" y="23.485000000000003">ПОЗ.</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="56.0" y="23.485000000000003">СОСТАВ</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="23.485000000000003">A, КН</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="23.485000000000003">N, КН</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="15.990000000000002"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="23.485000000000003">M, КН•М</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="15.990000000000002"/>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="15.990000000000002"/>
+  <rect height="14.990000000000002" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="15.990000000000002"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="30.980000000000004"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="34.975">K-1</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="30.980000000000004"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="30.980000000000004"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="30.980000000000004"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="34.975">I 20K2</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="30.980000000000004"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="34.975">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="30.980000000000004"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="34.975">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="30.980000000000004"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="128.47500000000002" y="34.975">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="30.980000000000004"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.46500000000003" y="34.975">S345-5</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="30.980000000000004"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="38.970000000000006"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="42.965">B-1</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="38.970000000000006"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="38.970000000000006"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="38.970000000000006"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="42.965">I 20H2</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="38.970000000000006"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="42.965">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="38.970000000000006"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="42.965">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="38.970000000000006"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="128.47500000000002" y="42.965">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="38.970000000000006"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.46500000000003" y="42.965">S345-5</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="38.970000000000006"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="46.96000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="50.955000000000005">B-2</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="46.96000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="46.96000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="46.96000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="50.955000000000005">U 12P</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="46.96000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="50.955000000000005">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="46.96000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="50.955000000000005">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="46.96000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="128.47500000000002" y="50.955000000000005">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="46.96000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.46500000000003" y="50.955000000000005">S245-4</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="46.96000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="54.95000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="58.94500000000001">SK-1</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="54.95000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="54.95000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="54.95000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="58.94500000000001">PK 80×7</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="54.95000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="58.94500000000001">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="54.95000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="58.94500000000001">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="54.95000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="128.47500000000002" y="58.94500000000001">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="54.95000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.46500000000003" y="58.94500000000001">09G2S</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="54.95000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="62.94000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="66.93500000000002">SG-1</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="62.94000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="62.94000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="62.94000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="66.93500000000002">PK 80×7</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="62.94000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="66.93500000000002">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="62.94000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="66.93500000000002">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="62.94000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="128.47500000000002" y="66.93500000000002">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="62.94000000000001"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.46500000000003" y="66.93500000000002">09G2S</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="62.94000000000001"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="70.93"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="11.0" y="74.92500000000001">R-1</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="70.93"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="70.93"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="70.93"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="76.0" y="74.92500000000001">PK 80×7</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="70.93"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="98.495" y="74.92500000000001">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="70.93"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="113.48500000000001" y="74.92500000000001">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="70.93"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="128.47500000000002" y="74.92500000000001">-</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="70.93"/>
+  <text dominant-baseline="middle" fill="#000000" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" fill="#000000" font-family="OpenGost Type B TT" font-size="4.13" x="148.46500000000003" y="74.92500000000001">09G2S</tspan>
+  </text>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="70.93"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="20.0" x="1" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="21.0" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="10.0" x="51.0" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="30.0" x="61.0" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="91.0" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="105.99000000000001" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="120.98000000000002" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="135.97000000000003" y="78.92"/>
+  <rect height="7.99" style="fill: transparent; stroke-width:.125; stroke: #000000;" width="24.990000000000002" x="160.96000000000004" y="78.92"/>
+</svg>
