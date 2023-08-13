@@ -1,6 +1,3 @@
 # BlenderBIM
-# BlenderBIM
-# BlenderBIM
-# BlenderBIM
-# BlenderBIM
-# BlenderBIM
+
+Meddling with BBIM.
