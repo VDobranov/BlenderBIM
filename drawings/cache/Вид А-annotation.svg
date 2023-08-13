@@ -38,11 +38,11 @@
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(94.0, 16.399995803833008) rotate(-90.00000250447816)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">300</tspan>
   </text>
-  <line class="GlobalId-1mb6Vp5nL8ngS8fn0Ozy4d IfcAnnotation PredefinedType-SECTION" x1="39.999996185302734" x2="40.000003814697266" y1="-9.999251365661621" y2="89.9992446899414"/>
-  <use transform="rotate(89.999995674289, 39.999996185302734, -9.999251365661621)" x="39.999996185302734" xlink:href="#section-arrow" y="-9.999251365661621"/>
-  <use x="39.999996185302734" xlink:href="#section-tag" y="-9.999251365661621"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="39.999996185302734" y="-12.499251365661621">1</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="39.999996185302734" y="-7.499251365661621">1</text>
+  <line class="GlobalId-1mb6Vp5nL8ngS8fn0Ozy4d IfcAnnotation PredefinedType-SECTION" x1="39.999996185302734" x2="40.000003814697266" y1="-9.999246597290039" y2="89.9992446899414"/>
+  <use transform="rotate(89.999995674289, 39.999996185302734, -9.999246597290039)" x="39.999996185302734" xlink:href="#section-arrow" y="-9.999246597290039"/>
+  <use x="39.999996185302734" xlink:href="#section-tag" y="-9.999246597290039"/>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="39.999996185302734" y="-12.499246597290039">1</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="39.999996185302734" y="-7.499246597290039">1</text>
   <use transform="rotate(89.999995674289, 40.000003814697266, 89.9992446899414)" x="40.000003814697266" xlink:href="#section-arrow" y="89.9992446899414"/>
   <use x="40.000003814697266" xlink:href="#section-tag" y="89.9992446899414"/>
   <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="40.000003814697266" y="87.4992446899414">1</text>
