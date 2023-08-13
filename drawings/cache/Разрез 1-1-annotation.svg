@@ -3,8 +3,8 @@
   <defs/>
   <use transform="rotate(-90.00000250447816, 80.0, 40.000003814697266)" x="80.0" xlink:href="#elevation-arrow" y="40.000003814697266"/>
   <use x="80.0" xlink:href="#elevation-tag" y="40.000003814697266"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="80.0" y="37.500003814697266">-</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="80.0" y="42.500003814697266">-</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="80.0" y="37.500003814697266">А</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="80.0" y="42.500003814697266">1</text>
   <path class="GlobalId-1g3v6VO957U8C58ItkYXU9 IfcAnnotation PredefinedType-SECTIONLEVEL" d="M 80.0 30.0 L 55.0 30.0"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(80.0, 26.5) rotate(0.0)">
     <tspan class="SECTIONLEVEL" dy="0em" x="0" y="0">RL +5000</tspan>
@@ -19,9 +19,9 @@
   <line class="GlobalId-1fvGAJRVHAVhCmmyDKh8ZN IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="20.000001907348633" x2="20.000001907348633" y1="89.99848937988281" y2="10.001506805419922"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="20.000001907348633" y="89.99848937988281">B</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="20.000001907348633" y="10.001506805419922">B</text>
-  <path class="GlobalId-2RkmG5plP6CeJZ1E_bP5Xi IfcAnnotation PredefinedType-SECTIONLEVEL" d="M 80.0 80.0 L 10.0 80.0"/>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(80.0, 76.5) rotate(0.0)">
-    <tspan class="SECTIONLEVEL" dy="-1em" x="0" y="0">Уровень земли</tspan>
+  <path class="GlobalId-2RkmG5plP6CeJZ1E_bP5Xi IfcAnnotation PredefinedType-SECTIONLEVEL" d="M 70.0 80.0 L 10.0 80.0"/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(70.0, 76.5) rotate(0.0)">
+    <tspan class="SECTIONLEVEL" dy="-1em" x="0" y="0">Уровень чистого пола</tspan>
     <tspan class="SECTIONLEVEL" dy="0em" x="0" y="0">RL +0</tspan>
   </text>
 </svg>

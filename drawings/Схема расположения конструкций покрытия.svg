@@ -349,6 +349,78 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
 </pattern>
 </defs>    <g ifc:name="Elevation &#1057;&#1093;&#1077;&#1084;&#1072; &#1088;&#1072;&#1089;&#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103; &#1082;&#1086;&#1085;&#1089;&#1090;&#1088;&#1091;&#1082;&#1094;&#1080;&#1081; &#1087;&#1086;&#1082;&#1088;&#1099;&#1090;&#1080;&#1103;" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,10.000000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,60.000000],[0.000000,10.000000,79.999999],[0.000000,0.000000,1.000000]]">
         <g class="projection">
+            <path d="M150.755,38.7662 L150.755,38.7519"/>
+            <path d="M150.038,38.9684 L150.038,38.7823"/>
+            <path d="M150.755,38.9845 L150.168,38.9845"/>
+            <path d="M150.755,38.9988 L150.755,38.9845"/>
+            <path d="M149.245,38.9845 L149.245,38.9988"/>
+            <path d="M149.833,38.9845 L149.245,38.9845"/>
+            <path d="M149.963,38.7823 L149.963,38.9684"/>
+            <path d="M149.245,38.7519 L149.245,38.7662"/>
+            <path d="M150.755,38.7519 L149.245,38.7519"/>
+            <path d="M150.168,38.7662 L150.755,38.7662"/>
+            <path d="M150.755,38.9988 L150.755,38.7662"/>
+            <path d="M150.055,38.7743 L150.038,38.7823"/>
+            <path d="M150.103,38.7684 L150.055,38.7743"/>
+            <path d="M150.168,38.7662 L150.103,38.7684"/>
+            <path d="M150.103,38.9823 L150.168,38.9845"/>
+            <path d="M150.055,38.9764 L150.103,38.9823"/>
+            <path d="M150.038,38.9684 L150.055,38.9764"/>
+            <path d="M149.245,38.9988 L150.755,38.9988"/>
+            <path d="M149.245,81.2468 L150.755,81.2468"/>
+            <path d="M150.755,81.2468 L150.755,38.9988"/>
+            <path d="M149.245,81.2468 L149.245,38.9988"/>
+            <path d="M149.945,38.9764 L149.963,38.9684"/>
+            <path d="M149.898,38.9823 L149.945,38.9764"/>
+            <path d="M149.833,38.9845 L149.898,38.9823"/>
+            <path d="M149.898,38.7684 L149.833,38.7662"/>
+            <path d="M149.945,38.7743 L149.898,38.7684"/>
+            <path d="M149.963,38.7823 L149.945,38.7743"/>
+            <path d="M149.245,38.7662 L149.833,38.7662"/>
+            <path d="M149.245,38.9988 L149.245,38.7662"/>
+            <path d="M119.245,78.3267 L90.8,40.4"/>
+            <path d="M119.216,79.621 L90.755,41.6733"/>
+            <path d="M59,41 L59.245,41"/>
+            <path d="M60.755,41 L61,41"/>
+            <path d="M61,41 L61,40.88"/>
+            <path d="M61,40.88 L60.755,40.88"/>
+            <path d="M60.755,39.12 L61,39.12"/>
+            <path d="M61,39.12 L61,39"/>
+            <path d="M61,39 L60.755,39"/>
+            <path d="M59.245,39 L59,39"/>
+            <path d="M59,39 L59,39.12"/>
+            <path d="M59,39.12 L59.245,39.12"/>
+            <path d="M59.245,40.88 L59,40.88"/>
+            <path d="M59,40.88 L59,41"/>
+            <path d="M90.755,38.7662 L90.755,38.7519"/>
+            <path d="M90.0375,38.9684 L90.0375,38.7823"/>
+            <path d="M90.755,38.9845 L90.1675,38.9845"/>
+            <path d="M90.755,38.9988 L90.755,38.9845"/>
+            <path d="M89.245,38.9845 L89.245,38.9988"/>
+            <path d="M89.8325,38.9845 L89.245,38.9845"/>
+            <path d="M89.9625,38.7823 L89.9625,38.9684"/>
+            <path d="M89.245,38.7519 L89.245,38.7662"/>
+            <path d="M90.755,38.7519 L89.245,38.7519"/>
+            <path d="M90.1675,38.7662 L90.755,38.7662"/>
+            <path d="M90.755,38.9988 L90.755,38.7662"/>
+            <path d="M90.0549,38.7743 L90.0375,38.7823"/>
+            <path d="M90.1025,38.7684 L90.0549,38.7743"/>
+            <path d="M90.1675,38.7662 L90.1025,38.7684"/>
+            <path d="M90.1025,38.9823 L90.1675,38.9845"/>
+            <path d="M90.0549,38.9764 L90.1025,38.9823"/>
+            <path d="M90.0375,38.9684 L90.0549,38.9764"/>
+            <path d="M89.245,38.9988 L90.755,38.9988"/>
+            <path d="M89.245,81.2468 L90.755,81.2468"/>
+            <path d="M90.755,81.2468 L90.755,38.9988"/>
+            <path d="M89.245,81.2468 L89.245,38.9988"/>
+            <path d="M89.9451,38.9764 L89.9625,38.9684"/>
+            <path d="M89.8975,38.9823 L89.9451,38.9764"/>
+            <path d="M89.8325,38.9845 L89.8975,38.9823"/>
+            <path d="M89.8975,38.7684 L89.8325,38.7662"/>
+            <path d="M89.9451,38.7743 L89.8975,38.7684"/>
+            <path d="M89.9625,38.7823 L89.9451,38.7743"/>
+            <path d="M89.245,38.7662 L89.8325,38.7662"/>
+            <path d="M89.245,38.9988 L89.245,38.7662"/>
             <path d="M120.755,38.7662 L120.755,38.7519"/>
             <path d="M120.038,38.9684 L120.038,38.7823"/>
             <path d="M120.755,38.9845 L120.168,38.9845"/>
@@ -378,8 +450,21 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M119.963,38.7823 L119.945,38.7743"/>
             <path d="M119.245,38.7662 L119.833,38.7662"/>
             <path d="M119.245,38.9988 L119.245,38.7662"/>
-            <path d="M119.245,78.3267 L90.8,40.4"/>
-            <path d="M119.216,79.621 L90.755,41.6733"/>
+            <path d="M59.245,81 L59.245,39"/>
+            <path d="M59.245,39 L60.755,39"/>
+            <path d="M60.755,81 L60.755,39"/>
+            <path d="M60.755,81 L59.245,81"/>
+            <path d="M59,81 L61,81"/>
+            <path d="M61,81 L61,80.88"/>
+            <path d="M61,80.88 L60.755,80.88"/>
+            <path d="M60.755,79.12 L61,79.12"/>
+            <path d="M61,79.12 L61,79"/>
+            <path d="M61,79 L60.755,79"/>
+            <path d="M59.245,79 L59,79"/>
+            <path d="M59,79 L59,79.12"/>
+            <path d="M59,79.12 L59.245,79.12"/>
+            <path d="M59.245,80.88 L59,80.88"/>
+            <path d="M59,80.88 L59,81"/>
             <path d="M106.084,57.8875 L119.2,40.4"/>
             <path d="M106.098,57.9079 L106.084,57.8875"/>
             <path d="M106.144,57.9502 L106.098,57.9079"/>
@@ -429,98 +514,6 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M120.755,39.6 L149.245,39.6"/>
             <path d="M120.755,80.4 L149.245,80.4"/>
             <path d="M120.755,79.6 L149.245,79.6"/>
-            <path d="M103.601,39.6 L90.755,39.6"/>
-            <path d="M103.601,39.6 L103.601,39.6"/>
-            <path d="M119.245,39.6 L106.212,39.6"/>
-            <path d="M105.82,39.6 L105.82,39.6"/>
-            <path d="M105.82,39.6 L106.212,39.6"/>
-            <path d="M106.212,39.6 L106.212,39.6"/>
-            <path d="M119.2,79.6 L106.598,79.6"/>
-            <path d="M59.245,81 L59.245,39"/>
-            <path d="M59.245,39 L60.755,39"/>
-            <path d="M60.755,81 L60.755,39"/>
-            <path d="M60.755,81 L59.245,81"/>
-            <path d="M59,41 L59.245,41"/>
-            <path d="M60.755,41 L61,41"/>
-            <path d="M61,41 L61,40.88"/>
-            <path d="M61,40.88 L60.755,40.88"/>
-            <path d="M60.755,39.12 L61,39.12"/>
-            <path d="M61,39.12 L61,39"/>
-            <path d="M61,39 L60.755,39"/>
-            <path d="M59.245,39 L59,39"/>
-            <path d="M59,39 L59,39.12"/>
-            <path d="M59,39.12 L59.245,39.12"/>
-            <path d="M59.245,40.88 L59,40.88"/>
-            <path d="M59,40.88 L59,41"/>
-            <path d="M90.755,38.7662 L90.755,38.7519"/>
-            <path d="M90.0375,38.9684 L90.0375,38.7823"/>
-            <path d="M90.755,38.9845 L90.1675,38.9845"/>
-            <path d="M90.755,38.9988 L90.755,38.9845"/>
-            <path d="M89.245,38.9845 L89.245,38.9988"/>
-            <path d="M89.8325,38.9845 L89.245,38.9845"/>
-            <path d="M89.9625,38.7823 L89.9625,38.9684"/>
-            <path d="M89.245,38.7519 L89.245,38.7662"/>
-            <path d="M90.755,38.7519 L89.245,38.7519"/>
-            <path d="M90.1675,38.7662 L90.755,38.7662"/>
-            <path d="M90.755,38.9988 L90.755,38.7662"/>
-            <path d="M90.0549,38.7743 L90.0375,38.7823"/>
-            <path d="M90.1025,38.7684 L90.0549,38.7743"/>
-            <path d="M90.1675,38.7662 L90.1025,38.7684"/>
-            <path d="M90.1025,38.9823 L90.1675,38.9845"/>
-            <path d="M90.0549,38.9764 L90.1025,38.9823"/>
-            <path d="M90.0375,38.9684 L90.0549,38.9764"/>
-            <path d="M89.245,38.9988 L90.755,38.9988"/>
-            <path d="M89.245,81.2468 L90.755,81.2468"/>
-            <path d="M90.755,81.2468 L90.755,38.9988"/>
-            <path d="M89.245,81.2468 L89.245,38.9988"/>
-            <path d="M89.9451,38.9764 L89.9625,38.9684"/>
-            <path d="M89.8975,38.9823 L89.9451,38.9764"/>
-            <path d="M89.8325,38.9845 L89.8975,38.9823"/>
-            <path d="M89.8975,38.7684 L89.8325,38.7662"/>
-            <path d="M89.9451,38.7743 L89.8975,38.7684"/>
-            <path d="M89.9625,38.7823 L89.9451,38.7743"/>
-            <path d="M89.245,38.7662 L89.8325,38.7662"/>
-            <path d="M89.245,38.9988 L89.245,38.7662"/>
-            <path d="M150.755,38.7662 L150.755,38.7519"/>
-            <path d="M150.038,38.9684 L150.038,38.7823"/>
-            <path d="M150.755,38.9845 L150.168,38.9845"/>
-            <path d="M150.755,38.9988 L150.755,38.9845"/>
-            <path d="M149.245,38.9845 L149.245,38.9988"/>
-            <path d="M149.833,38.9845 L149.245,38.9845"/>
-            <path d="M149.963,38.7823 L149.963,38.9684"/>
-            <path d="M149.245,38.7519 L149.245,38.7662"/>
-            <path d="M150.755,38.7519 L149.245,38.7519"/>
-            <path d="M150.168,38.7662 L150.755,38.7662"/>
-            <path d="M150.755,38.9988 L150.755,38.7662"/>
-            <path d="M150.055,38.7743 L150.038,38.7823"/>
-            <path d="M150.103,38.7684 L150.055,38.7743"/>
-            <path d="M150.168,38.7662 L150.103,38.7684"/>
-            <path d="M150.103,38.9823 L150.168,38.9845"/>
-            <path d="M150.055,38.9764 L150.103,38.9823"/>
-            <path d="M150.038,38.9684 L150.055,38.9764"/>
-            <path d="M149.245,38.9988 L150.755,38.9988"/>
-            <path d="M149.245,81.2468 L150.755,81.2468"/>
-            <path d="M150.755,81.2468 L150.755,38.9988"/>
-            <path d="M149.245,81.2468 L149.245,38.9988"/>
-            <path d="M149.945,38.9764 L149.963,38.9684"/>
-            <path d="M149.898,38.9823 L149.945,38.9764"/>
-            <path d="M149.833,38.9845 L149.898,38.9823"/>
-            <path d="M149.898,38.7684 L149.833,38.7662"/>
-            <path d="M149.945,38.7743 L149.898,38.7684"/>
-            <path d="M149.963,38.7823 L149.945,38.7743"/>
-            <path d="M149.245,38.7662 L149.833,38.7662"/>
-            <path d="M149.245,38.9988 L149.245,38.7662"/>
-            <path d="M59,81 L61,81"/>
-            <path d="M61,81 L61,80.88"/>
-            <path d="M61,80.88 L60.755,80.88"/>
-            <path d="M60.755,79.12 L61,79.12"/>
-            <path d="M61,79.12 L61,79"/>
-            <path d="M61,79 L60.755,79"/>
-            <path d="M59.245,79 L59,79"/>
-            <path d="M59,79 L59,79.12"/>
-            <path d="M59,79.12 L59.245,79.12"/>
-            <path d="M59.245,80.88 L59,80.88"/>
-            <path d="M59,80.88 L59,81"/>
             <path d="M60.755,40.4 L89.245,40.4"/>
             <path d="M60.755,39.6 L89.245,39.6"/>
             <path d="M60.755,80.4 L89.245,80.4"/>
@@ -530,18 +523,12 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M90.755,80.4 L119.245,80.4"/>
             <path d="M90.8,79.6 L119.2,79.6"/>
             <path d="M103.601,39.6 L119.245,39.6"/>
-            <path d="M149,41 L149.245,41"/>
-            <path d="M150.755,41 L151,41"/>
-            <path d="M151,41 L151,40.88"/>
-            <path d="M151,40.88 L150.755,40.88"/>
-            <path d="M150.755,39.12 L151,39.12"/>
-            <path d="M151,39.12 L151,39"/>
-            <path d="M151,39 L150.755,39"/>
-            <path d="M149.245,39 L149,39"/>
-            <path d="M149,39 L149,39.12"/>
-            <path d="M149,39.12 L149.245,39.12"/>
-            <path d="M149.245,40.88 L149,40.88"/>
-            <path d="M149,40.88 L149,41"/>
+            <path d="M103.601,39.6 L90.755,39.6"/>
+            <path d="M103.601,39.6 L103.601,39.6"/>
+            <path d="M119.245,39.6 L106.212,39.6"/>
+            <path d="M105.82,39.6 L105.82,39.6"/>
+            <path d="M105.82,39.6 L106.212,39.6"/>
+            <path d="M106.212,39.6 L106.212,39.6"/>
             <path d="M149,81 L149.245,81"/>
             <path d="M150.755,81 L151,81"/>
             <path d="M151,81 L151,80.88"/>
@@ -563,6 +550,19 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M119.245,39 L119,39"/>
             <path d="M119,39 L119,39.12"/>
             <path d="M119,39.12 L119.245,39.12"/>
+            <path d="M119.2,79.6 L106.598,79.6"/>
+            <path d="M149,41 L149.245,41"/>
+            <path d="M150.755,41 L151,41"/>
+            <path d="M151,41 L151,40.88"/>
+            <path d="M151,40.88 L150.755,40.88"/>
+            <path d="M150.755,39.12 L151,39.12"/>
+            <path d="M151,39.12 L151,39"/>
+            <path d="M151,39 L150.755,39"/>
+            <path d="M149.245,39 L149,39"/>
+            <path d="M149,39 L149,39.12"/>
+            <path d="M149,39.12 L149.245,39.12"/>
+            <path d="M149.245,40.88 L149,40.88"/>
+            <path d="M149,40.88 L149,41"/>
             <path d="M119,81 L119.245,81"/>
             <path d="M120.755,81 L121,81"/>
             <path d="M121,81 L121,80.88"/>
@@ -593,33 +593,52 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
         </g>
     </g>
   <defs/>
-  <line class="GlobalId-3liH8dm$v76hes0jEpHt1T IfcAnnotation PredefinedType-SECTION" x1="70.00000762939453" x2="69.99999237060547" y1="20.0" y2="120.0"/>
+  <line class="GlobalId-3iN7yfO9r8dBLF1r7rBcDh IfcAnnotation PredefinedType-SECTION" x1="70.00000762939453" x2="69.99999237060547" y1="20.0" y2="120.0"/>
   <use transform="rotate(90.00000933466734, 70.00000762939453, 20.0)" x="70.00000762939453" xlink:href="#section-arrow" y="20.0"/>
   <use x="70.00000762939453" xlink:href="#section-tag" y="20.0"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="17.5">3</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="17.5">1</text>
   <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="22.5">1</text>
   <use transform="rotate(90.00000933466734, 69.99999237060547, 120.0)" x="69.99999237060547" xlink:href="#section-arrow" y="120.0"/>
   <use x="69.99999237060547" xlink:href="#section-tag" y="120.0"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="117.5">3</text>
+  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="117.5">1</text>
   <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="122.5">1</text>
+  <line class="GlobalId-28HJEwQjr8fRY8RDHb$6NQ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="60.0" x2="60.0" y1="100.0" y2="20.000003814697266"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="60.0" y="100.0">1</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="60.0" y="20.000003814697266">1</text>
+  <line class="GlobalId-0UqumUXrP8X9nvyRHncfgU IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="120.0" x2="120.0" y1="100.0" y2="20.000003814697266"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="120.0" y="100.0">3</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="120.0" y="20.000003814697266">3</text>
+  <line class="GlobalId-0l$5lRiBb6BBjg0eFJbZtS IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="149.99998474121094" x2="149.99998474121094" y1="100.0" y2="20.000003814697266"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="149.99998474121094" y="100.0">4</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="149.99998474121094" y="20.000003814697266">4</text>
+  <line class="GlobalId-2BvIB0YjX3c8UOWa390KEH IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="40.0" x2="170.0" y1="40.0" y2="40.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="40.0" y="40.0">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="170.0" y="40.0">B</text>
+  <use transform="rotate(-0.0, 140.0, 100.0)" x="140.0" xlink:href="#elevation-arrow" y="100.0"/>
+  <use x="140.0" xlink:href="#elevation-tag" y="100.0"/>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="140.0" y="97.5">А</text>
+  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="140.0" y="102.5">1</text>
   <line class="GlobalId-2LfS_USC59tuIeFXQunxG_ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="40.0" x2="170.0" y1="80.0" y2="80.0"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="40.0" y="80.0">A</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="170.0" y="80.0">A</text>
   <line class="GlobalId-0luongAPj07fODUUo8_0iT IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="90.0" x2="90.0" y1="100.0" y2="20.000003814697266"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="90.0" y="100.0">2</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="90.0" y="20.000003814697266">2</text>
-  <line class="GlobalId-28HJEwQjr8fRY8RDHb$6NQ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="60.0" x2="60.0" y1="100.0" y2="20.000003814697266"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="60.0" y="100.0">1</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="60.0" y="20.000003814697266">1</text>
-  <line class="GlobalId-0l$5lRiBb6BBjg0eFJbZtS IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="149.99998474121094" x2="149.99998474121094" y1="100.0" y2="20.000003814697266"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="149.99998474121094" y="100.0">4</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="149.99998474121094" y="20.000003814697266">4</text>
-  <line class="GlobalId-0UqumUXrP8X9nvyRHncfgU IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="120.0" x2="120.0" y1="100.0" y2="20.000003814697266"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="120.0" y="100.0">3</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="120.0" y="20.000003814697266">3</text>
-  <line class="GlobalId-2BvIB0YjX3c8UOWa390KEH IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="40.0" x2="170.0" y1="40.0" y2="40.0"/>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="40.0" y="40.0">B</text>
-  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="170.0" y="40.0">B</text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(135.0, 79.0) rotate(-0.0)">
+    <tspan class="GlobalId-0BmqMwfwP4SOcv$ocsxmAP IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Р-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(105.0, 79.0) rotate(-0.0)">
+    <tspan class="GlobalId-1MyrypMer4FPgOzeMmUe47 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Р-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(105.0, 39.0) rotate(-0.0)">
+    <tspan class="GlobalId-1ZUw4Ae1j4T8EA_JNrTiak IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Р-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(110.87532806396484, 48.83290100097656) rotate(-53.13008811942657)">
+    <tspan class="GlobalId-1qQKIU7y963uwEAEmUilCH IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">СГ-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(88.0, 59.999385833740234) rotate(-89.999995674289)">
+    <tspan class="GlobalId-3mfNJo9kz4ifY$WkT8AoDx IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Б-1</tspan>
+  </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(112.12068176269531, 67.49424743652344) rotate(53.13010519489949)">
     <tspan class="GlobalId-0XotvA88bFHftrY5gE0Edh IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">СГ-1</tspan>
   </text>
@@ -640,20 +659,5 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(118.00001525878906, 59.999385833740234) rotate(-89.999995674289)">
     <tspan class="GlobalId-32J9QLp4jAgxpD28CE5Wgw IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Б-1</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(135.0, 79.0) rotate(-0.0)">
-    <tspan class="GlobalId-0BmqMwfwP4SOcv$ocsxmAP IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Р-1</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(105.0, 79.0) rotate(-0.0)">
-    <tspan class="GlobalId-1MyrypMer4FPgOzeMmUe47 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Р-1</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(110.87532806396484, 48.83290100097656) rotate(-53.13008811942657)">
-    <tspan class="GlobalId-1qQKIU7y963uwEAEmUilCH IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">СГ-1</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(105.0, 39.0) rotate(-0.0)">
-    <tspan class="GlobalId-1ZUw4Ae1j4T8EA_JNrTiak IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Р-1</tspan>
-  </text>
-  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(88.0, 59.999385833740234) rotate(-89.999995674289)">
-    <tspan class="GlobalId-3mfNJo9kz4ifY$WkT8AoDx IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">Б-1</tspan>
   </text>
 </svg>
