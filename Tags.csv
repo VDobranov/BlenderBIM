@@ -1,57 +1,52 @@
-GlobalId,Representation.Representations.0.Items.0.Literal,Representation.Representations.0.Items.0.BoxAlignment,Representation.Representations.0.Items.0.CurrentValue
-0MuCe7Otz92gIBHSm_Mg_T,{{Tag}},bottom-left,
-0BmqMwfwP4SOcv$ocsxmAP,{{Tag}},bottom-middle,
-1wmbx8Qhr1eP2GpHVQfYZQ,TEXT,bottom-left,
-0ncxtf0C5C8uDOFYsdqxlc,TEXT,bottom-left,
-197lmjAUX9zgp62$_ZNMwq,TEXT,bottom-left,
-0l7k95qtP7E9dXIELqig4C,TEXT,bottom-left,
-1mysm4a8v39QEJib9UTAv_,TEXT,bottom-left,
-1MyrypMer4FPgOzeMmUe47,{{Tag}},bottom-middle,
-28q2pFT8bFOh$vKp$CARV4,TEXT,bottom-left,
-0rJWn4$eTCDehwLQkxnbY8,TEXT,bottom-left,
-2CC8umzPLAffzezCqqRa$K,TEXT,bottom-left,
-1QIX8Sr299VeSGReSiE05j,TEXT,bottom-left,
-3n5YIC2Qb68Bu9RlDNW1no,TEXT,bottom-left,
-2PL47xV4H5j9jchHwxYujB,TEXT,bottom-left,
-1A9CMIinPAyglih84wZxTS,{{Tag}},bottom-left,
-3uU0I8uFj7ZekEp7LoLa39,TEXT,bottom-left,
-2GV_cNi4z8Ohv4Qrxla9mt,TEXT,bottom-left,
-1JgZ77FQn5bQ1A93O2paDs,TEXT,bottom-left,
-1ZUw4Ae1j4T8EA_JNrTiak,{{Tag}},bottom-middle,
-1qQKIU7y963uwEAEmUilCH,{{Tag}},bottom-middle,
-1zNtQgK3X9UgG_qtDwyyRA,TEXT,bottom-left,
-3mfNJo9kz4ifY$WkT8AoDx,{{Tag}},bottom-middle,
-0ablSRfQXAmudXSCzDGawu,{{Tag}},bottom-left,
-1vD6GNb1b41Ruasj_rkldN,TEXT,bottom-left,
-0$Yb_UsCfCWO3AdlYvorMh,TEXT,bottom-left,
-1T3$XZvz91h9JmGyFzxHol,TEXT,bottom-left,
-2sSUdQ4BbAwQUpdduVOm4k,TEXT,bottom-left,
-0z0gA5NbX7SghPfeNxqj_o,TEXT,bottom-left,
-0iMIwBhjjFsuK0irn35WbL,{{Tag}},bottom-middle,
-0XotvA88bFHftrY5gE0Edh,{{Tag}},bottom-middle,
-0LqtAKgNnCou9QZ0DomXh1,TEXT,bottom-left,
-2F24cXFTLB8xt9gsuyR7KU,TEXT,bottom-left,
-0APsE2gEzAhRTACTmcaUzW,TEXT,bottom-left,
-2CRga8yGXC9gGTL1B5uBxA,{{Tag}},bottom-left,
-2tPQvowwb73AqMtawULHb1,{{Tag}},bottom-left,
-3cpRF$mLbBIxmRPY3UE2w5,TEXT,bottom-left,
-0p__ubla55LQRicWNLnkXT,TEXT,bottom-left,
-1$rAiWj_D7hweiqw8B$cp2,TEXT,bottom-left,
-137muMH5f90hFTs1a87WUh,TEXT,bottom-left,
-2IsDzCT7T4v9ljxNKH0bYU,{{Tag}},bottom-middle,
-0S6lAVIVL08w1a4a5SxAhO,{{Tag}},bottom-middle,
-20jLHb0_H7ZhONSc7rHSIU,TEXT,bottom-left,
-0oackqApT0DAiFS4YqDqzD,TEXT,bottom-left,
-3WDYVSq4n2Eu1ZrY4n9PyE,{{Tag}},bottom-middle,
-1buumDBnTFFPKqcutUToou,TEXT,bottom-left,
-3t1YH04r15tR17o71tPt4b,{{Tag}},bottom-left,
-3IzPysiaz7ww8VFAhm9aJ9,TEXT,bottom-left,
-3ne5T$$_H3gOeUh3G0le3c,TEXT,bottom-left,
-2JmQ52Tt1AsudF5ZFn9FR9,{{Tag}},bottom-left,
-2mIb1id4fBOvCqKwSHJP0B,{{Tag}},bottom-middle,
-32J9QLp4jAgxpD28CE5Wgw,{{Tag}},bottom-middle,
-0eWd1ssLTFLhnjTEnfonyS,{{Tag}},bottom-left,
-3Ch_wNtzfBsx_8VHIw6zGb,TEXT,bottom-left,
-05tJFzOoLFAQqx0TTJT$MV,TEXT,bottom-left,
-3ChMEHLBj0vRtaVP_5ueXM,TEXT,bottom-left,
-3AKYEZ7pD6Dxi9ZpIO$Icc,TEXT,bottom-left,
+GlobalId,Name,Tag
+1LiSaymmDAEBr9yk0jcYDs,Связь по колоннам СК-1,СК-1
+1agPJ4NDrCbvfOWlZm_Wlf,Балка Б-1,Б-1
+3MbmtBnFv37AZWomJ4NDcN,Opening,
+2JCgdAm411ZwGWXQlJ1LkI,Балка Б-1,Б-1
+1Yn4UP$0v7IgGPgtPehaw_,Связь горизонтальная СГ-1,СГ-1
+0v2NwwrdvAB86S$qs$hDUN,Прогон П-1,П-1
+2NpgisWQjEBgMny291vmON,Прогон П-1,П-1
+3YqeBdKwX7Dvq8xsTenpmM,Прогон П-1,П-1
+1PCMnrCdvBrf39e8RUHsg8,Распорка Р-1,Р-1
+23wKTC7knEHwZeP_UnzIW2,Прогон П-1,П-1
+0NQCMfycP5TBHHVHy2HjPg,I20К2 С345-5 5м,1
+0YyiDjKgDA2P6VlekAER32,"I20К2 С345-5 5,5м",
+2_XwNPcsnA1B3VlP6mIHDi,Прогон П-1,П-1
+3_5kI87ED4M8enLs4$gMyl,Распорка Р-1,Р-1
+3uMgYWxDr6V9J9jFFDhK1G,База колонны.001,2
+2NCrRG5xP6f86s$LhBAz78,I20К2 С345-5 5м,
+3Of8pWTVr6_fgRZNUyFxxq,Связь по колоннам СК-1,СК-1
+2N7Skp0CT2UfrzA$bJegxD,Колонна К-1,К-1
+15eKxF$y9DnOLt8teKQ5ko,Прогон П-1,П-1
+2s5rY_s1z4Vud8MXene_P6,Прогон П-1,П-1
+1kQ0xQC3j5ogJXsfN5vsM3,Распорка Р-1,Р-1
+0AteuYJ357GBMyB_EHrB3d,Opening,
+1ryp3xG3PDHBgEzghZImqV,Балка Б-1,Б-1
+3IjA8x6vr4sQVL6R_GZsl5,Прогон П-1,П-1
+1lIcVx8Fr5fPNUFT8Ax_uG,База колонны,2
+0BaBhcsbjAEf0dnQ8dDW$C,Прогон П-1,П-1
+3JUh1woLLAUffWhTHhHIyM,Прогон П-1,П-1
+31jAVMQaD2MRMKEvCHvIku,Распорка Р-1,Р-1
+3hab6Dv2XBcwr6wrFshhkW,Прогон П-1,П-1
+3c9YmePKXDeQl3SuyL1tA1,"I20К2 С345-5 5,5м",
+17oxL7CM1CdAzPRPNgqWjJ,Прогон П-1,П-1
+169RH_VDT0Quro5zPegcHe,Прогон П-1,П-1
+2l274jttf6xA4LVI1LxtwA,Opening,
+0YZ6sdiHjBx8vnvokvjVEh,I20К2 С345-5 5м,1
+3z9ShRdjP5zf_zoLmpzvyy,Распорка Р-1,Р-1
+0GAEUZPBHBDQTDvehX_3iy,База колонны.001,2
+0VgP5dqgn9h8RyElAeJ5Il,Прогон П-1,П-1
+3wAg8d1u540ua7HKVCcNZR,Прогон П-1,П-1
+0Vw2wqhx9Eshwe988uyWg0,Колонна К-1,К-1
+2dceTU_kX4NwtAP9G767pO,Связь горизонтальная СГ-1,СГ-1
+3QnYuu6az7ve6_bdZ6jgnV,"I20К2 С345-5 5,5м",
+1RpwMo3CXDwwhwPQbIsXm7,I20К2 С345-5 5м.001,1
+0ligUul9f69uFK1mlhIbPD,Колонна К-2,К-2
+1Txmz615D4VgijLmXg9OCE,Прогон П-1,П-1
+0caA2v5nP8Avyrk6C9msBI,Связь по колоннам СК-1,СК-1
+3ILZr12C1Fowlq49sAmF4T,Связь по колоннам СК-1,СК-1
+07BobWgfD6xOXRl_cu__i$,Прогон П-1,П-1
+0ZpXshZ_XBPRySpmZFbPU$,Балка Б-1,Б-1
+2PlFsUfVb9DfnEtITCoPCX,Прогон П-1,П-1
+1q8VzwJprF$fs7YiWMTioO,"I20К2 С345-5 5,5м",
+2dc0GN8gvAVhgKJKj6JzCz,Распорка Р-1,Р-1
