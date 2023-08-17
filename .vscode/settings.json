@@ -1,5 +1,6 @@
 {
 	"cSpell.words": [
 		"Теклы"
-	]
+	],
+	"python.analysis.typeCheckingMode": "basic"
 }
