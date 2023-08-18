@@ -47,7 +47,7 @@ def create_IfcIndexedPolyCurve(Points, Segments):
     return model.createIfcIndexedPolyCurve(Points, Segments)
 
 def create_FoundationStud(L,l,R,d,l0):
-    stud = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Шпилька 1.М{d}×{L} 09Г2С")
+    stud = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Шпилька 1.М{d}×{L}")
     # print(stud.Name)
     stud.NominalLength = L
     stud.NominalDiameter = d
@@ -55,7 +55,7 @@ def create_FoundationStud(L,l,R,d,l0):
     pcurve = create_IfcIndexedPolyCurve(plist, create_Segments())
     sds = create_IfcSweptDiskSolid(pcurve, d/2)
     representation = model.createIfcShapeRepresentation(
-    ContextOfItems=body, RepresentationIdentifier="Body", RepresentationType="SolidModel", Items=[sds])
+    ContextOfItems=body, RepresentationIdentifier="Body", RepresentationType="AdvancedSweptSolid", Items=[sds])
     offset = model.createIfcCartesianPoint([0.0,0.0,float(l0)])
     placement = model.createIfcAxis2placement3d(offset, dir_z, dir_x)
     representationmap = model.createIfcRepresentationMap(placement,representation)
