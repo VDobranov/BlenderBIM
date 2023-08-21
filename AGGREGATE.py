@@ -4,7 +4,7 @@ from ifcopenshell.api import run
 from ifcopenshell.util import representation
 
 f = '/Users/vdobranov/Yandex.Disk.localized/Работа/BlenderBIM/TEMPLATE.ifc'
-f1 = '/Users/vdobranov/Yandex.Disk.localized/Работа/BlenderBIM/NUTS.ifc'
+f1 = '/Users/vdobranov/Yandex.Disk.localized/Работа/BlenderBIM/AGGREGATE.ifc'
 
 model = ios.open(f)
 
@@ -49,34 +49,32 @@ def create_IfcIndexedPolyCurve(Points, Segments):
 def create_IfcCircle(Radius):
     return model.createIfcCircle(placement2d, Radius)
 
-def create_FoundationNut(d, S, m):
-    nut = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="NUT", name=f"Гайка М{d} ГОСТ 5915-70")
+def create_FoundationWasher(d, d0, D, s):
+    nut = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="WASHER", name=f"Шайба М{d} ГОСТ 24379.1-2012")
     nut.NominalDiameter = d
-    plist = create_IfcCartesianPointList2D(S)
-    pcurve = create_IfcIndexedPolyCurve(plist, create_Segments())
-    circle = create_IfcCircle(d/2)
-    # profile = create_IfcArbitraryClosedProfileDef(f"Гайка М{d}", pcurve)
-    profile = create_IfcArbitraryProfileDefWithVoids(f"Гайка М{d}", pcurve, [circle])
-    eas = create_IfcExtrudedAreaSolid(profile, m)
+    outerCircle = create_IfcCircle(D/2)
+    innerCircle = create_IfcCircle(d0/2)
+    profile = create_IfcArbitraryProfileDefWithVoids(f"Шайба М{d}", outerCircle, [innerCircle])
+    eas = create_IfcExtrudedAreaSolid(profile, s)
     representation = model.createIfcShapeRepresentation(
     ContextOfItems=body, RepresentationIdentifier="Body", RepresentationType="SweptSolid", Items=[eas])
-    # placement = model.createIfcAxis2placement3d(placement3d, dir_z, dir_x)
     placement = placement3d
     representationmap = model.createIfcRepresentationMap(placement,representation)
     nut.RepresentationMaps = [representationmap]
 
-# create_FoundationNut(20,30,18)
+ass = run("root.create_entity", model, ifc_class="IfcElementAssemblyType", name="assembly", predefined_type="ANCHORBOLT_GROUP")
+bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", name="bolt", predefined_type="ANCHORBOLT")
+nuttype = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", name="nut", predefined_type="NUT")
+nut1 = run("root.create_entity", model, ifc_class="IfcMechanicalFastener", name="nut", predefined_type="NUT")
+nut2 = run("root.create_entity", model, ifc_class="IfcMechanicalFastener", name="nut", predefined_type="NUT")
+run("type.assign_type", model, related_object=nut1, relating_type=nuttype)
+run("type.assign_type", model, related_object=nut2, relating_type=nuttype)
 
-gost = [[12, 18, 10.8],
-[16, 24, 14.8],
-[20, 30, 18],
-[24, 36, 21.5],
-[30, 46, 25.6],
-[36, 55, 31],
-[42, 65, 34],
-[48, 75, 38]]
+run("aggregate.assign_object", model, product=nut1, relating_object=bolt)
+run("aggregate.assign_object", model, product=nut2, relating_object=bolt)
+run("aggregate.assign_object", model, product=bolt, relating_object=ass)
 
-for f in gost:
-    create_FoundationNut(f[0],f[1],f[2])
+pset = run("pset.add_pset", model, product=bolt, name="Pset_MechanicalFastenerAnchorBolt")
+run("pset.edit_pset", model, pset=pset, properties={"AnchorBoltLength": 1320})
     
 model.write(f1)

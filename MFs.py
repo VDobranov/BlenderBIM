@@ -61,6 +61,28 @@ def create_FoundationStud(L,l,R,d,l0):
     representationmap = model.createIfcRepresentationMap(placement,representation)
     # run("geometry.assign_representation", model, product=stud, representation=representation)
     stud.RepresentationMaps = [representationmap]
+    abolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Болт 1.1.М{d}×{L}")
+    run("aggregate.assign_object", model, product=stud, relating_object=abolt)
+    pset1 = run("pset.add_pset", model, product=abolt, name="Pset_MechanicalFastenerAnchorBolt")
+    pset2 = run("pset.add_pset", model, product=abolt, name="Pset_ElementComponentCommon")
+    pset3 = run("pset.add_pset", model, product=abolt, name="Pset_ManufacturerTypeInformation")
+    run("pset.edit_pset", model, pset=pset1, properties={
+        "AnchorBoltLength": L,
+        "AnchorBoltDiameter": d,
+        "AnchorBoltThreadLength": l0,
+        "AnchorBoltProtrusionLength": l0
+        })
+    run("pset.edit_pset", model, pset=pset2, properties={
+        "Status": "NEW",
+        "DeliveryType": "LOOSE",
+        "CorrosionTreatment": "GALVANISED"
+        })
+    run("pset.edit_pset", model, pset=pset3, properties={
+        "ModelLabel": f"Болт 1.1.М{d}×{L}",
+        "AssemblyPlace": "SITE",
+        "OperationalDocument": "ГОСТ 24379.1-2012"
+        })
+
 
 # create_FoundationStud(1320,60,20,20,500)
 # create_FoundationStud(600,75,24,24,200)
