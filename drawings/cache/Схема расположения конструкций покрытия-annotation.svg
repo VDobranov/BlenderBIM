@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="120.0mm" id="root" version="1.1" viewBox="0 0 200.0 120.0" width="200.0mm">
   <defs/>
-  <line class="GlobalId-3iN7yfO9r8dBLF1r7rBcDh IfcAnnotation PredefinedType-SECTION" x1="70.00000762939453" x2="69.99999237060547" y1="20.0" y2="120.0"/>
-  <use transform="rotate(90.00000933466734, 70.00000762939453, 20.0)" x="70.00000762939453" xlink:href="#section-arrow" y="20.0"/>
-  <use x="70.00000762939453" xlink:href="#section-tag" y="20.0"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="17.5">1</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="22.5">1</text>
-  <use transform="rotate(90.00000933466734, 69.99999237060547, 120.0)" x="69.99999237060547" xlink:href="#section-arrow" y="120.0"/>
-  <use x="69.99999237060547" xlink:href="#section-tag" y="120.0"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="117.5">1</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="122.5">1</text>
   <line class="GlobalId-28HJEwQjr8fRY8RDHb$6NQ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="60.0" x2="60.0" y1="100.0" y2="20.000003814697266"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="60.0" y="100.0">1</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="60.0" y="20.000003814697266">1</text>
@@ -22,10 +13,6 @@
   <line class="GlobalId-2BvIB0YjX3c8UOWa390KEH IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="40.0" x2="170.0" y1="40.0" y2="40.0"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="40.0" y="40.0">B</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="170.0" y="40.0">B</text>
-  <use transform="rotate(-0.0, 140.0, 100.0)" x="140.0" xlink:href="#elevation-arrow" y="100.0"/>
-  <use x="140.0" xlink:href="#elevation-tag" y="100.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="140.0" y="97.5">А</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="140.0" y="102.5">1</text>
   <line class="GlobalId-2LfS_USC59tuIeFXQunxG_ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="40.0" x2="170.0" y1="80.0" y2="80.0"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="40.0" y="80.0">A</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="170.0" y="80.0">A</text>

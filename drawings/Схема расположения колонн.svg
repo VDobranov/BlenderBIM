@@ -349,30 +349,6 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
 </pattern>
 </defs>    <g ifc:name="Elevation &#1057;&#1093;&#1077;&#1084;&#1072; &#1088;&#1072;&#1089;&#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1103; &#1082;&#1086;&#1083;&#1086;&#1085;&#1085;" class="section" ifc:plane="[[1.000000,0.000000,0.000000,0.000000],[0.000000,1.000000,0.000000,0.000000],[0.000000,0.000000,1.000000,1.600000],[0.000000,0.000000,0.000000,1.000000]]" ifc:matrix3="[[10.000000,0.000000,60.000000],[0.000000,10.000000,79.999999],[0.000000,0.000000,1.000000]]">
         <g class="projection">
-            <path d="M59,81 L61,81"/>
-            <path d="M61,81 L61,80.88"/>
-            <path d="M61,80.88 L60.17,80.88"/>
-            <path d="M60.0574,80.815 L60.04,80.75"/>
-            <path d="M60.105,80.8626 L60.0574,80.815"/>
-            <path d="M60.17,80.88 L60.105,80.8626"/>
-            <path d="M60.04,80.75 L60.04,79.25"/>
-            <path d="M60.105,79.1374 L60.17,79.12"/>
-            <path d="M60.0574,79.185 L60.105,79.1374"/>
-            <path d="M60.04,79.25 L60.0574,79.185"/>
-            <path d="M60.17,79.12 L61,79.12"/>
-            <path d="M61,79.12 L61,79"/>
-            <path d="M61,79 L59,79"/>
-            <path d="M59,79 L59,79.12"/>
-            <path d="M59,79.12 L59.83,79.12"/>
-            <path d="M59.9426,79.185 L59.96,79.25"/>
-            <path d="M59.895,79.1374 L59.9426,79.185"/>
-            <path d="M59.83,79.12 L59.895,79.1374"/>
-            <path d="M59.96,79.25 L59.96,80.75"/>
-            <path d="M59.895,80.8626 L59.83,80.88"/>
-            <path d="M59.9426,80.815 L59.895,80.8626"/>
-            <path d="M59.96,80.75 L59.9426,80.815"/>
-            <path d="M59.83,80.88 L59,80.88"/>
-            <path d="M59,80.88 L59,81"/>
             <path d="M149,41 L151,41"/>
             <path d="M151,41 L151,40.88"/>
             <path d="M151,40.88 L150.17,40.88"/>
@@ -397,30 +373,6 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M149.96,40.75 L149.943,40.815"/>
             <path d="M149.83,40.88 L149,40.88"/>
             <path d="M149,40.88 L149,41"/>
-            <path d="M149,81 L151,81"/>
-            <path d="M151,81 L151,80.88"/>
-            <path d="M151,80.88 L150.17,80.88"/>
-            <path d="M150.057,80.815 L150.04,80.75"/>
-            <path d="M150.105,80.8626 L150.057,80.815"/>
-            <path d="M150.17,80.88 L150.105,80.8626"/>
-            <path d="M150.04,80.75 L150.04,79.25"/>
-            <path d="M150.105,79.1374 L150.17,79.12"/>
-            <path d="M150.057,79.185 L150.105,79.1374"/>
-            <path d="M150.04,79.25 L150.057,79.185"/>
-            <path d="M150.17,79.12 L151,79.12"/>
-            <path d="M151,79.12 L151,79"/>
-            <path d="M151,79 L149,79"/>
-            <path d="M149,79 L149,79.12"/>
-            <path d="M149,79.12 L149.83,79.12"/>
-            <path d="M149.943,79.185 L149.96,79.25"/>
-            <path d="M149.895,79.1374 L149.943,79.185"/>
-            <path d="M149.83,79.12 L149.895,79.1374"/>
-            <path d="M149.96,79.25 L149.96,80.75"/>
-            <path d="M149.895,80.8626 L149.83,80.88"/>
-            <path d="M149.943,80.815 L149.895,80.8626"/>
-            <path d="M149.96,80.75 L149.943,80.815"/>
-            <path d="M149.83,80.88 L149,80.88"/>
-            <path d="M149,80.88 L149,81"/>
             <path d="M119,41 L121,41"/>
             <path d="M121,41 L121,40.88"/>
             <path d="M121,40.88 L120.17,40.88"/>
@@ -445,30 +397,6 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M119.96,40.75 L119.943,40.815"/>
             <path d="M119.83,40.88 L119,40.88"/>
             <path d="M119,40.88 L119,41"/>
-            <path d="M119,81 L121,81"/>
-            <path d="M121,81 L121,80.88"/>
-            <path d="M121,80.88 L120.17,80.88"/>
-            <path d="M120.057,80.815 L120.04,80.75"/>
-            <path d="M120.105,80.8626 L120.057,80.815"/>
-            <path d="M120.17,80.88 L120.105,80.8626"/>
-            <path d="M120.04,80.75 L120.04,79.25"/>
-            <path d="M120.105,79.1374 L120.17,79.12"/>
-            <path d="M120.057,79.185 L120.105,79.1374"/>
-            <path d="M120.04,79.25 L120.057,79.185"/>
-            <path d="M120.17,79.12 L121,79.12"/>
-            <path d="M121,79.12 L121,79"/>
-            <path d="M121,79 L119,79"/>
-            <path d="M119,79 L119,79.12"/>
-            <path d="M119,79.12 L119.83,79.12"/>
-            <path d="M119.943,79.185 L119.96,79.25"/>
-            <path d="M119.895,79.1374 L119.943,79.185"/>
-            <path d="M119.83,79.12 L119.895,79.1374"/>
-            <path d="M119.96,79.25 L119.96,80.75"/>
-            <path d="M119.895,80.8626 L119.83,80.88"/>
-            <path d="M119.943,80.815 L119.895,80.8626"/>
-            <path d="M119.96,80.75 L119.943,80.815"/>
-            <path d="M119.83,80.88 L119,80.88"/>
-            <path d="M119,80.88 L119,81"/>
             <path d="M89,41 L91,41"/>
             <path d="M91,41 L91,40.88"/>
             <path d="M91,40.88 L90.17,40.88"/>
@@ -493,30 +421,54 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M89.96,40.75 L89.9426,40.815"/>
             <path d="M89.83,40.88 L89,40.88"/>
             <path d="M89,40.88 L89,41"/>
-            <path d="M59,41 L61,41"/>
-            <path d="M61,41 L61,40.88"/>
-            <path d="M61,40.88 L60.17,40.88"/>
-            <path d="M60.0574,40.815 L60.04,40.75"/>
-            <path d="M60.105,40.8626 L60.0574,40.815"/>
-            <path d="M60.17,40.88 L60.105,40.8626"/>
-            <path d="M60.04,40.75 L60.04,39.25"/>
-            <path d="M60.105,39.1374 L60.17,39.12"/>
-            <path d="M60.0574,39.185 L60.105,39.1374"/>
-            <path d="M60.04,39.25 L60.0574,39.185"/>
-            <path d="M60.17,39.12 L61,39.12"/>
-            <path d="M61,39.12 L61,39"/>
-            <path d="M61,39 L59,39"/>
-            <path d="M59,39 L59,39.12"/>
-            <path d="M59,39.12 L59.83,39.12"/>
-            <path d="M59.9426,39.185 L59.96,39.25"/>
-            <path d="M59.895,39.1374 L59.9426,39.185"/>
-            <path d="M59.83,39.12 L59.895,39.1374"/>
-            <path d="M59.96,39.25 L59.96,40.75"/>
-            <path d="M59.895,40.8626 L59.83,40.88"/>
-            <path d="M59.9426,40.815 L59.895,40.8626"/>
-            <path d="M59.96,40.75 L59.9426,40.815"/>
-            <path d="M59.83,40.88 L59,40.88"/>
-            <path d="M59,40.88 L59,41"/>
+            <path d="M149,81 L151,81"/>
+            <path d="M151,81 L151,80.88"/>
+            <path d="M151,80.88 L150.17,80.88"/>
+            <path d="M150.057,80.815 L150.04,80.75"/>
+            <path d="M150.105,80.8626 L150.057,80.815"/>
+            <path d="M150.17,80.88 L150.105,80.8626"/>
+            <path d="M150.04,80.75 L150.04,79.25"/>
+            <path d="M150.105,79.1374 L150.17,79.12"/>
+            <path d="M150.057,79.185 L150.105,79.1374"/>
+            <path d="M150.04,79.25 L150.057,79.185"/>
+            <path d="M150.17,79.12 L151,79.12"/>
+            <path d="M151,79.12 L151,79"/>
+            <path d="M151,79 L149,79"/>
+            <path d="M149,79 L149,79.12"/>
+            <path d="M149,79.12 L149.83,79.12"/>
+            <path d="M149.943,79.185 L149.96,79.25"/>
+            <path d="M149.895,79.1374 L149.943,79.185"/>
+            <path d="M149.83,79.12 L149.895,79.1374"/>
+            <path d="M149.96,79.25 L149.96,80.75"/>
+            <path d="M149.895,80.8626 L149.83,80.88"/>
+            <path d="M149.943,80.815 L149.895,80.8626"/>
+            <path d="M149.96,80.75 L149.943,80.815"/>
+            <path d="M149.83,80.88 L149,80.88"/>
+            <path d="M149,80.88 L149,81"/>
+            <path d="M119,81 L121,81"/>
+            <path d="M121,81 L121,80.88"/>
+            <path d="M121,80.88 L120.17,80.88"/>
+            <path d="M120.057,80.815 L120.04,80.75"/>
+            <path d="M120.105,80.8626 L120.057,80.815"/>
+            <path d="M120.17,80.88 L120.105,80.8626"/>
+            <path d="M120.04,80.75 L120.04,79.25"/>
+            <path d="M120.105,79.1374 L120.17,79.12"/>
+            <path d="M120.057,79.185 L120.105,79.1374"/>
+            <path d="M120.04,79.25 L120.057,79.185"/>
+            <path d="M120.17,79.12 L121,79.12"/>
+            <path d="M121,79.12 L121,79"/>
+            <path d="M121,79 L119,79"/>
+            <path d="M119,79 L119,79.12"/>
+            <path d="M119,79.12 L119.83,79.12"/>
+            <path d="M119.943,79.185 L119.96,79.25"/>
+            <path d="M119.895,79.1374 L119.943,79.185"/>
+            <path d="M119.83,79.12 L119.895,79.1374"/>
+            <path d="M119.96,79.25 L119.96,80.75"/>
+            <path d="M119.895,80.8626 L119.83,80.88"/>
+            <path d="M119.943,80.815 L119.895,80.8626"/>
+            <path d="M119.96,80.75 L119.943,80.815"/>
+            <path d="M119.83,80.88 L119,80.88"/>
+            <path d="M119,80.88 L119,81"/>
             <path d="M89,81 L91,81"/>
             <path d="M91,81 L91,80.88"/>
             <path d="M91,80.88 L90.17,80.88"/>
@@ -541,23 +493,132 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
             <path d="M89.96,80.75 L89.9426,80.815"/>
             <path d="M89.83,80.88 L89,80.88"/>
             <path d="M89,80.88 L89,81"/>
+            <path d="M59,81 L61,81"/>
+            <path d="M61,81 L61,80.88"/>
+            <path d="M61,80.88 L60.17,80.88"/>
+            <path d="M60.0574,80.815 L60.04,80.75"/>
+            <path d="M60.105,80.8626 L60.0574,80.815"/>
+            <path d="M60.17,80.88 L60.105,80.8626"/>
+            <path d="M60.04,80.75 L60.04,79.25"/>
+            <path d="M60.105,79.1374 L60.17,79.12"/>
+            <path d="M60.0574,79.185 L60.105,79.1374"/>
+            <path d="M60.04,79.25 L60.0574,79.185"/>
+            <path d="M60.17,79.12 L61,79.12"/>
+            <path d="M61,79.12 L61,79"/>
+            <path d="M61,79 L59,79"/>
+            <path d="M59,79 L59,79.12"/>
+            <path d="M59,79.12 L59.83,79.12"/>
+            <path d="M59.9426,79.185 L59.96,79.25"/>
+            <path d="M59.895,79.1374 L59.9426,79.185"/>
+            <path d="M59.83,79.12 L59.895,79.1374"/>
+            <path d="M59.96,79.25 L59.96,80.75"/>
+            <path d="M59.895,80.8626 L59.83,80.88"/>
+            <path d="M59.9426,80.815 L59.895,80.8626"/>
+            <path d="M59.96,80.75 L59.9426,80.815"/>
+            <path d="M59.83,80.88 L59,80.88"/>
+            <path d="M59,80.88 L59,81"/>
+            <path d="M91,80.82 L91,80.88"/>
+            <path d="M90.17,80.82 L90.17,80.88"/>
+            <path d="M90.17,80.88 L90.17,80.88"/>
+            <path d="M90.17,80.82 L91,80.82"/>
+            <path d="M89.83,80.82 L89.83,80.88"/>
+            <path d="M89,80.82 L89,80.88"/>
+            <path d="M89.83,80.88 L89.83,80.88"/>
+            <path d="M89,80.82 L89.83,80.82"/>
+            <path d="M59.83,80.82 L59.83,80.88"/>
+            <path d="M59,80.82 L59,80.88"/>
+            <path d="M59.83,80.88 L59.83,80.88"/>
+            <path d="M59,80.82 L59.83,80.82"/>
+            <path d="M59,41 L61,41"/>
+            <path d="M61,41 L61,40.88"/>
+            <path d="M61,40.88 L60.17,40.88"/>
+            <path d="M60.0574,40.815 L60.04,40.75"/>
+            <path d="M60.105,40.8626 L60.0574,40.815"/>
+            <path d="M60.17,40.88 L60.105,40.8626"/>
+            <path d="M60.04,40.75 L60.04,39.25"/>
+            <path d="M60.105,39.1374 L60.17,39.12"/>
+            <path d="M60.0574,39.185 L60.105,39.1374"/>
+            <path d="M60.04,39.25 L60.0574,39.185"/>
+            <path d="M60.17,39.12 L61,39.12"/>
+            <path d="M61,39.12 L61,39"/>
+            <path d="M61,39 L59,39"/>
+            <path d="M59,39 L59,39.12"/>
+            <path d="M59,39.12 L59.83,39.12"/>
+            <path d="M59.9426,39.185 L59.96,39.25"/>
+            <path d="M59.895,39.1374 L59.9426,39.185"/>
+            <path d="M59.83,39.12 L59.895,39.1374"/>
+            <path d="M59.96,39.25 L59.96,40.75"/>
+            <path d="M59.895,40.8626 L59.83,40.88"/>
+            <path d="M59.9426,40.815 L59.895,40.8626"/>
+            <path d="M59.96,40.75 L59.9426,40.815"/>
+            <path d="M59.83,40.88 L59,40.88"/>
+            <path d="M59,40.88 L59,41"/>
+            <path d="M91,78.94 L91,79"/>
+            <path d="M89,78.94 L89,79"/>
+            <path d="M91,79 L91,79"/>
+            <path d="M89,78.94 L91,78.94"/>
+            <path d="M89,81.06 L89,81"/>
+            <path d="M91,81.06 L91,81"/>
+            <path d="M89,81 L89,81"/>
+            <path d="M91,81.06 L89,81.06"/>
+            <path d="M61,78.94 L61,79"/>
+            <path d="M59,78.94 L59,79"/>
+            <path d="M61,79 L61,79"/>
+            <path d="M59,78.94 L61,78.94"/>
+            <path d="M59,81.06 L59,81"/>
+            <path d="M61,81.06 L61,81"/>
+            <path d="M59,81 L59,81"/>
+            <path d="M61,81.06 L59,81.06"/>
+            <path d="M90.1,80.75 L90.04,80.75"/>
+            <path d="M90.1,79.25 L90.04,79.25"/>
+            <path d="M90.04,80.75 L90.04,80.75"/>
+            <path d="M90.1,79.25 L90.1,80.75"/>
+            <path d="M60.1,80.75 L60.04,80.75"/>
+            <path d="M60.1,79.25 L60.04,79.25"/>
+            <path d="M60.1,79.25 L60.1,80.75"/>
+            <path d="M89.9,79.25 L89.96,79.25"/>
+            <path d="M89.9,80.75 L89.96,80.75"/>
+            <path d="M89.96,80.75 L89.96,80.75"/>
+            <path d="M89.9,80.75 L89.9,79.25"/>
+            <path d="M59.9,79.25 L59.96,79.25"/>
+            <path d="M59.9,80.75 L59.96,80.75"/>
+            <path d="M59.9,80.75 L59.9,79.25"/>
+            <path d="M89,79.18 L89,79.12"/>
+            <path d="M89.83,79.18 L89.83,79.12"/>
+            <path d="M89.83,79.12 L89.83,79.12"/>
+            <path d="M89.83,79.18 L89,79.18"/>
+            <path d="M90.17,79.18 L90.17,79.12"/>
+            <path d="M91,79.18 L91,79.12"/>
+            <path d="M90.17,79.12 L90.17,79.12"/>
+            <path d="M91,79.18 L90.17,79.18"/>
+            <path d="M59,79.18 L59,79.12"/>
+            <path d="M59.83,79.18 L59.83,79.12"/>
+            <path d="M59.83,79.12 L59.83,79.12"/>
+            <path d="M59.83,79.18 L59,79.18"/>
+            <path d="M60.17,79.18 L60.17,79.12"/>
+            <path d="M61,79.18 L61,79.12"/>
+            <path d="M60.17,79.12 L60.17,79.12"/>
+            <path d="M61,79.18 L60.17,79.18"/>
+            <path d="M61,80.82 L61,80.88"/>
+            <path d="M60.17,80.82 L60.17,80.88"/>
+            <path d="M60.17,80.82 L61,80.82"/>
         </g>
-    <g id="product-1768c5a9-f266-4574-b451-7d1f0246d66a-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="0NQCMfycP5TBHHVHy2HjPg">
-            <path d="M89.0,81.0 L91.0,81.0 L91.0,80.9 L90.2,80.9 L90.1,80.8 L90.0,80.8 L89.9,80.8 L89.8,80.9 L89.0,80.9 Z"/><path d="M90.0,79.2 L90.1,79.2 L90.2,79.1 L91.0,79.1 L91.0,79.0 L89.0,79.0 L89.0,79.1 L89.8,79.1 L89.9,79.2 Z"/><path d="M90.0,80.8 L90.0,79.2 Z"/></g>
-        <g id="product-dac62e38-1a4f-47e6-81be-9678c6b6ac5f-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="3QnYuu6az7ve6_bdZ6jgnV">
+    <g id="product-dac62e38-1a4f-47e6-81be-9678c6b6ac5f-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5,5&#1084;" ifc:guid="3QnYuu6az7ve6_bdZ6jgnV">
             <path d="M59.0,41.0 L61.0,41.0 L61.0,40.9 L60.2,40.9 L60.1,40.8 L60.0,40.8 L59.9,40.8 L59.8,40.9 L59.0,40.9 Z"/><path d="M60.0,39.2 L60.1,39.2 L60.2,39.1 L61.0,39.1 L61.0,39.0 L59.0,39.0 L59.0,39.1 L59.8,39.1 L59.9,39.2 Z"/><path d="M60.0,40.8 L60.0,39.2 Z"/></g>
-        <g id="product-7421ff7a-4f3d-4ffe-9d87-8ac81676cc98-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="1q8VzwJprF$fs7YiWMTioO">
-            <path d="M89.0,41.0 L91.0,41.0 L91.0,40.9 L90.2,40.9 L90.1,40.8 L90.0,40.8 L89.9,40.8 L89.8,40.9 L89.0,40.9 Z"/><path d="M90.0,39.2 L90.1,39.2 L90.2,39.1 L91.0,39.1 L91.0,39.0 L89.0,39.0 L89.0,39.1 L89.8,39.1 L89.9,39.2 Z"/><path d="M90.0,40.8 L90.0,39.2 Z"/></g>
-        <g id="product-228c6da7-b11b-4bec-8e71-e72bb9b5f3ab-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="0YZ6sdiHjBx8vnvokvjVEh">
-            <path d="M119.0,81.0 L121.0,81.0 L121.0,80.9 L120.2,80.9 L120.1,80.8 L120.0,80.8 L119.9,80.8 L119.8,80.9 L119.0,80.9 Z"/><path d="M120.0,79.2 L120.1,79.2 L120.2,79.1 L121.0,79.1 L121.0,79.0 L119.0,79.0 L119.0,79.1 L119.8,79.1 L119.9,79.2 Z"/><path d="M120.0,80.8 L120.0,79.2 Z"/></g>
-        <g id="product-e6262c28-6548-4da1-abc3-738f15077281-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="3c9YmePKXDeQl3SuyL1tA1">
-            <path d="M119.0,41.0 L121.0,41.0 L121.0,40.9 L120.2,40.9 L120.1,40.8 L120.0,40.8 L119.9,40.8 L119.8,40.9 L119.0,40.9 Z"/><path d="M120.0,39.2 L120.1,39.2 L120.2,39.1 L121.0,39.1 L121.0,39.0 L119.0,39.0 L119.0,39.1 L119.8,39.1 L119.9,39.2 Z"/><path d="M120.0,40.8 L120.0,39.2 Z"/></g>
-        <g id="product-973356d0-17b6-46a4-81b6-fd5acb2bd1c8-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="2NCrRG5xP6f86s$LhBAz78">
-            <path d="M149.0,81.0 L151.0,81.0 L151.0,80.9 L150.2,80.9 L150.1,80.8 L150.0,80.8 L149.9,80.8 L149.8,80.9 L149.0,80.9 Z"/><path d="M150.0,79.2 L150.1,79.2 L150.2,79.1 L151.0,79.1 L151.0,79.0 L149.0,79.0 L149.0,79.1 L149.8,79.1 L149.9,79.2 Z"/><path d="M150.0,80.8 L150.0,79.2 Z"/></g>
-        <g id="product-22f2c36d-52a3-4a09-919f-be8b8a39b0c2-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="0YyiDjKgDA2P6VlekAER32">
-            <path d="M149.0,41.0 L151.0,41.0 L151.0,40.9 L150.2,40.9 L150.1,40.8 L150.0,40.8 L149.9,40.8 L149.8,40.9 L149.0,40.9 Z"/><path d="M150.0,39.2 L150.1,39.2 L150.2,39.1 L151.0,39.1 L151.0,39.0 L149.0,39.0 L149.0,39.1 L149.8,39.1 L149.9,39.2 Z"/><path d="M150.0,40.8 L150.0,39.2 Z"/></g>
-        <g id="product-5bcfa5b2-0cc8-4deb-aafa-65a952da1c07-body" class="IfcColumn material-I20K2S3455 cut" ifc:name="&#1050;&#1086;&#1083;&#1086;&#1085;&#1085;&#1072; &#1050;-1" ifc:guid="1RpwMo3CXDwwhwPQbIsXm7">
+        <g id="product-5bcfa5b2-0cc8-4deb-aafa-65a952da1c07-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5&#1084;.001" ifc:guid="1RpwMo3CXDwwhwPQbIsXm7">
             <path d="M59.0,81.0 L61.0,81.0 L61.0,80.9 L60.2,80.9 L60.1,80.8 L60.0,80.8 L59.9,80.8 L59.8,80.9 L59.0,80.9 Z"/><path d="M60.0,79.2 L60.1,79.2 L60.2,79.1 L61.0,79.1 L61.0,79.0 L59.0,79.0 L59.0,79.1 L59.8,79.1 L59.9,79.2 Z"/><path d="M60.0,80.8 L60.0,79.2 Z"/></g>
+        <g id="product-1768c5a9-f266-4574-b451-7d1f0246d66a-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5&#1084;" ifc:guid="0NQCMfycP5TBHHVHy2HjPg">
+            <path d="M89.0,81.0 L91.0,81.0 L91.0,80.9 L90.2,80.9 L90.1,80.8 L90.0,80.8 L89.9,80.8 L89.8,80.9 L89.0,80.9 Z"/><path d="M90.0,79.2 L90.1,79.2 L90.2,79.1 L91.0,79.1 L91.0,79.0 L89.0,79.0 L89.0,79.1 L89.8,79.1 L89.9,79.2 Z"/><path d="M90.0,80.8 L90.0,79.2 Z"/></g>
+        <g id="product-228c6da7-b11b-4bec-8e71-e72bb9b5f3ab-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5&#1084;" ifc:guid="0YZ6sdiHjBx8vnvokvjVEh">
+            <path d="M119.0,81.0 L121.0,81.0 L121.0,80.9 L120.2,80.9 L120.1,80.8 L120.0,80.8 L119.9,80.8 L119.8,80.9 L119.0,80.9 Z"/><path d="M120.0,79.2 L120.1,79.2 L120.2,79.1 L121.0,79.1 L121.0,79.0 L119.0,79.0 L119.0,79.1 L119.8,79.1 L119.9,79.2 Z"/><path d="M120.0,80.8 L120.0,79.2 Z"/></g>
+        <g id="product-973356d0-17b6-46a4-81b6-fd5acb2bd1c8-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5&#1084;" ifc:guid="2NCrRG5xP6f86s$LhBAz78">
+            <path d="M149.0,81.0 L151.0,81.0 L151.0,80.9 L150.2,80.9 L150.1,80.8 L150.0,80.8 L149.9,80.8 L149.8,80.9 L149.0,80.9 Z"/><path d="M150.0,79.2 L150.1,79.2 L150.2,79.1 L151.0,79.1 L151.0,79.0 L149.0,79.0 L149.0,79.1 L149.8,79.1 L149.9,79.2 Z"/><path d="M150.0,80.8 L150.0,79.2 Z"/></g>
+        <g id="product-7421ff7a-4f3d-4ffe-9d87-8ac81676cc98-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5,5&#1084;" ifc:guid="1q8VzwJprF$fs7YiWMTioO">
+            <path d="M89.0,41.0 L91.0,41.0 L91.0,40.9 L90.2,40.9 L90.1,40.8 L90.0,40.8 L89.9,40.8 L89.8,40.9 L89.0,40.9 Z"/><path d="M90.0,39.2 L90.1,39.2 L90.2,39.1 L91.0,39.1 L91.0,39.0 L89.0,39.0 L89.0,39.1 L89.8,39.1 L89.9,39.2 Z"/><path d="M90.0,40.8 L90.0,39.2 Z"/></g>
+        <g id="product-e6262c28-6548-4da1-abc3-738f15077281-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5,5&#1084;" ifc:guid="3c9YmePKXDeQl3SuyL1tA1">
+            <path d="M119.0,41.0 L121.0,41.0 L121.0,40.9 L120.2,40.9 L120.1,40.8 L120.0,40.8 L119.9,40.8 L119.8,40.9 L119.0,40.9 Z"/><path d="M120.0,39.2 L120.1,39.2 L120.2,39.1 L121.0,39.1 L121.0,39.0 L119.0,39.0 L119.0,39.1 L119.8,39.1 L119.9,39.2 Z"/><path d="M120.0,40.8 L120.0,39.2 Z"/></g>
+        <g id="product-22f2c36d-52a3-4a09-919f-be8b8a39b0c2-body" class="IfcColumn material-I2023455 cut" ifc:name="I20&#1050;2 &#1057;345-5 5,5&#1084;" ifc:guid="0YyiDjKgDA2P6VlekAER32">
+            <path d="M149.0,41.0 L151.0,41.0 L151.0,40.9 L150.2,40.9 L150.1,40.8 L150.0,40.8 L149.9,40.8 L149.8,40.9 L149.0,40.9 Z"/><path d="M150.0,39.2 L150.1,39.2 L150.2,39.1 L151.0,39.1 L151.0,39.0 L149.0,39.0 L149.0,39.1 L149.8,39.1 L149.9,39.2 Z"/><path d="M150.0,40.8 L150.0,39.2 Z"/></g>
         </g>
   <defs/>
   <line class="GlobalId-276TCxwFXE9ul9pJLBQ$dJ IfcAnnotation PredefinedType-DIMENSION" x1="90.0" x2="120.0" y1="100.0" y2="100.0"/>
@@ -577,15 +638,6 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
   <line class="GlobalId-1TVaEjuG59Duvq5BvbtpIh IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="119.99999237060547" x2="119.99999237060547" y1="110.0" y2="20.000009536743164"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="119.99999237060547" y="110.0">3</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="119.99999237060547" y="20.000009536743164">3</text>
-  <line class="GlobalId-3zMaAuENbCFAHGnndN2PFW IfcAnnotation PredefinedType-SECTION" x1="70.00000762939453" x2="69.99999237060547" y1="20.0" y2="120.0"/>
-  <use transform="rotate(90.00000933466734, 70.00000762939453, 20.0)" x="70.00000762939453" xlink:href="#section-arrow" y="20.0"/>
-  <use x="70.00000762939453" xlink:href="#section-tag" y="20.0"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="17.5">1</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="70.00000762939453" y="22.5">1</text>
-  <use transform="rotate(90.00000933466734, 69.99999237060547, 120.0)" x="69.99999237060547" xlink:href="#section-arrow" y="120.0"/>
-  <use x="69.99999237060547" xlink:href="#section-tag" y="120.0"/>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="117.5">1</text>
-  <text class="SECTION" dominant-baseline="middle" text-anchor="middle" x="69.99999237060547" y="122.5">1</text>
   <line class="GlobalId-0PSI43PZH3Xvxx$PTUaRSO IfcAnnotation PredefinedType-DIMENSION" x1="60.0" x2="90.0" y1="100.0" y2="100.0"/>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="middle" transform="translate(75.0, 99.0) rotate(0.0)">
     <tspan class="DIMENSION" dy="0em" x="0" y="0">3000</tspan>
@@ -603,32 +655,28 @@ text.GRID, tspan.GRID { /* 3mm */ font-size: 4.96px; dominant-baseline: central;
   <line class="GlobalId-0XkVP8XZHCgwRtiR$zWh7I IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="149.99998474121094" x2="149.99998474121094" y1="110.0" y2="20.000009536743164"/>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="149.99998474121094" y="110.0">4</text>
   <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="149.99998474121094" y="20.000009536743164">4</text>
-  <use transform="rotate(-0.0, 140.0, 90.0)" x="140.0" xlink:href="#elevation-arrow" y="90.0"/>
-  <use x="140.0" xlink:href="#elevation-tag" y="90.0"/>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="140.0" y="87.5">А</text>
-  <text class="ELEVATION" dominant-baseline="middle" text-anchor="middle" x="140.0" y="92.5">1</text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(92.0, 78.0) rotate(-0.0)">
     <tspan class="GlobalId-0MuCe7Otz92gIBHSm_Mg_T IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(152.0, 78.0) rotate(-0.0)">
-    <tspan class="GlobalId-1A9CMIinPAyglih84wZxTS IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
+    <tspan class="GlobalId-1A9CMIinPAyglih84wZxTS IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0"/>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(92.0, 38.0) rotate(-0.0)">
-    <tspan class="GlobalId-0ablSRfQXAmudXSCzDGawu IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
+    <tspan class="GlobalId-0ablSRfQXAmudXSCzDGawu IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0"/>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(122.0, 38.0) rotate(-0.0)">
-    <tspan class="GlobalId-2CRga8yGXC9gGTL1B5uBxA IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
+    <tspan class="GlobalId-2CRga8yGXC9gGTL1B5uBxA IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0"/>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.0, 78.0) rotate(-0.0)">
-    <tspan class="GlobalId-2tPQvowwb73AqMtawULHb1 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
+    <tspan class="GlobalId-2tPQvowwb73AqMtawULHb1 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-2</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(152.0, 38.0) rotate(-0.0)">
-    <tspan class="GlobalId-3t1YH04r15tR17o71tPt4b IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
+    <tspan class="GlobalId-3t1YH04r15tR17o71tPt4b IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0"/>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(122.0, 78.0) rotate(-0.0)">
     <tspan class="GlobalId-2JmQ52Tt1AsudF5ZFn9FR9 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
   </text>
   <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.0, 38.0) rotate(-0.0)">
-    <tspan class="GlobalId-0eWd1ssLTFLhnjTEnfonyS IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">К-1</tspan>
+    <tspan class="GlobalId-0eWd1ssLTFLhnjTEnfonyS IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0"/>
   </text>
 </svg>
