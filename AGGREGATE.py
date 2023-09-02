@@ -1,5 +1,5 @@
 import math
-import numpy
+# import numpy
 import ifcopenshell as ios
 from ifcopenshell.api import run
 from ifcopenshell.util import representation
@@ -16,7 +16,9 @@ placement3d = model.by_type("IfcAxis2Placement3D")[0]
 placement2d = model.by_type("IfcAxis2Placement2D")[0]
 dir_x = model.createIfcDirection([1.0, 0.0, 0.0])
 dir_z = model.createIfcDirection([0.0, 0.0, 1.0])
-matrix = numpy.eye(4)
+# matrix = numpy.eye(4)
+
+material = model.by_type("IfcMaterial")
 
 bolt_types = dict()
 stud_types = dict()
@@ -81,7 +83,7 @@ def create_Segments_hexagon():
     return [s1,s2,s3,s4,s5,s6]
 
 def create_IfcIndexedPolyCurve_hexagon(Points, Segments):
-    return model.createIfcIndexedPolyCurve(Points, Segments)\
+    return model.createIfcIndexedPolyCurve(Points, Segments)
 
 def create_IfcCircle(Radius):
     return model.createIfcCircle(placement2d, Radius)
@@ -97,7 +99,7 @@ def create_LocalPlacement(offset):
     return local_placement
 
 def create_FoundationStudType(L,l,R,d,l0):
-    stud = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="STUD", name=f"Шпилька 1.М{d}×{L}")
+    stud = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="STUD", name=f"Шпилька 1.М{d}×{L} ГОСТ 24379.1-2012")
     # print(stud.Name)
     stud.NominalLength = L
     stud.NominalDiameter = d
@@ -190,7 +192,7 @@ def create_FoundationWasher(d,offset_height):
     return washer
 
 def create_FoundationBoltType(L,d,l0):
-    bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Болт 1.1.М{d}×{L}")
+    bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Болт 1.1.М{d}×{L} ГОСТ 24379.1-2012")
     stud = create_FoundationStud(d,L)
     run("aggregate.assign_object", model, product=stud, relating_object=bolt)
     offset_height = 30.
@@ -216,7 +218,7 @@ def create_FoundationBoltType(L,d,l0):
         "CorrosionTreatment": "GALVANISED"
         })
     run("pset.edit_pset", model, pset=pset3, properties={
-        "ModelLabel": f"Болт 1.1.М{d}×{L}",
+        "ModelLabel": f"Болт 1.1.М{d}×{L} ГОСТ 24379.1-2012",
         "AssemblyPlace": "SITE",
         "OperationalDocument": "ГОСТ 24379.1-2012"
         })
