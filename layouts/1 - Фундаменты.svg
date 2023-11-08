@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="root" version="1.1" width="594.0mm" height="420.0mm" viewBox="0 0 594.0 420.0">
+    <g data-type="titleblock">
+        <image xlink:href="titleblocks/A2_landscape_ru.svg" x="0" y="0" width="594.0" height="420.0"/>
+    </g>
+    <g data-type="schedule" data-id="4793" data-schedule="4793">
+        <image data-type="table" xlink:href="../drawings/ОСИ.svg" x="30.0" y="30.0" width="200.0" height="120.0"/>
+        <image data-type="view-title" xlink:href="assets/view-title.svg" x="30.0" y="155.0" width="200.0" height="7.0"/>
+    </g>
+    <g data-type="drawing" data-id="4843" data-drawing="1o9MFkou590RRZKKQ22f8S">
+        <image data-type="foreground" xlink:href="../drawings/Схема расположения фундаментов.svg" x="30.0" y="30.0" width="200.0" height="120.0"/>
+        <image data-type="view-title" xlink:href="assets/view-title.svg" x="30.0" y="155.0" width="200.0" height="7.0"/>
+    </g>
+    <g data-type="schedule" data-id="5026" data-schedule="4782">
+        <image data-type="table" xlink:href="../Спецификация к схеме расположения фундаментов.svg" x="393.0" y="30.0" width="197.15999999999997" height="41.019999999999996"/>
+        <image data-type="view-title" xlink:href="assets/view-title.svg" x="393.0" y="20" width="200.0" height="7.0"/>
+    </g>
+    <g data-type="schedule" data-id="5035" data-schedule="5027">
+        <image data-type="table" xlink:href="../Спецификация элементов.svg" x="393.0" y="90.0" width="197.15999999999997" height="200"/>
+        <image data-type="view-title" xlink:href="assets/view-title.svg" x="393.0" y="80" width="200.0" height="7.0"/>
+    </g>
+</svg>

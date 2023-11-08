@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="500.0mm" id="root" version="1.1" viewBox="0 0 500.0 500.0" width="500.0mm">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="120.0mm" id="root" version="1.1" viewBox="0 0 200.0 120.0" width="200.0mm">
   <defs/>
+  <line class="GlobalId-3CixRoMIz0vQa_1ADi0Nx4 IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="115.0" x2="115.0" y1="100.0" y2="20.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="115.0" y="100.0">3</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="115.0" y="20.0">3</text>
+  <line class="GlobalId-1l9c_9EHX4$v60y61QBPLb IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="35.0" x2="165.0" y1="80.0" y2="80.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="35.0" y="80.0">A</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="165.0" y="80.0">A</text>
+  <line class="GlobalId-0DLmNcGBjEk82kYo9K$q9c IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="145.0" x2="145.0" y1="100.0" y2="20.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="145.0" y="100.0">4</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="145.0" y="20.0">4</text>
+  <line class="GlobalId-1rICvwX51DAQUVYy4pYJ3v IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="35.0" x2="165.0" y1="40.0" y2="40.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="35.0" y="40.0">B</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="165.0" y="40.0">B</text>
+  <line class="GlobalId-2vooExvuz9Ze56lQpeRcm_ IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="55.0" x2="55.0" y1="100.0" y2="20.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="55.0" y="100.0">1</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="55.0" y="20.0">1</text>
+  <line class="GlobalId-30k2rt7nD2rw2Xj8Dc8Fok IfcAnnotation PredefinedType-GRID" stroke-dasharray="12.5, 3, 3, 3" x1="85.0" x2="85.0" y1="100.0" y2="20.0"/>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="85.0" y="100.0">2</text>
+  <text class="GRID" dominant-baseline="middle" text-anchor="middle" x="85.0" y="20.0">2</text>
 </svg>

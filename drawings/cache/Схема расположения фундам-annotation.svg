@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:ifc="http://www.ifcopenshell.org/ns" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" data-scale="1:100" height="120.0mm" id="root" version="1.1" viewBox="0 0 200.0 120.0" width="200.0mm">
+  <defs/>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(152.0, 30.0) rotate(-0.0)">
+    <tspan class="GlobalId-3MJgaKTJv9Y8$niimXlh6k IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-2</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(125.0, 70.0) rotate(-0.0)">
+    <tspan class="GlobalId-05s1GSAQb70R$KeLyrRh2h IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.0, 30.0) rotate(-0.0)">
+    <tspan class="GlobalId-0IwxPcxnPB7gU4eB1YyKp3 IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-2</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(95.0, 30.0) rotate(-0.0)">
+    <tspan class="GlobalId-0deHkLNQT37Q0BqWndYd6C IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(62.0, 70.0) rotate(-0.0)">
+    <tspan class="GlobalId-30BC43KCr7zRw1LkY6fSZJ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-2</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(95.0, 70.0) rotate(-0.0)">
+    <tspan class="GlobalId-3F58a6Vbn9zRVPvpcEkUyH IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(125.0, 30.0) rotate(-0.0)">
+    <tspan class="GlobalId-21tsSjmvn1NPeuVtDM3yoR IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-1</tspan>
+  </text>
+  <text dominant-baseline="baseline" style="font-size: 0;" text-anchor="start" transform="translate(152.0, 70.0) rotate(-0.0)">
+    <tspan class="GlobalId-2pwz8SB71FWPE_XfjYcygJ IfcAnnotation PredefinedType-TEXT" dy="0em" x="0" y="0">ФМ-2</tspan>
+  </text>
+</svg>

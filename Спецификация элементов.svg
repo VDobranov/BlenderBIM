@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="177.14000000000001mm" id="root" version="1.1" viewBox="0 0 197.15999999999997 177.14000000000001" width="197.15999999999997mm">
+  <defs/>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="8.495000000000001">Поз.</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="8.495000000000001">Обозначение</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="8.495000000000001">Наименование</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="8.495000000000001">Кол.</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" font-family="OpenGost Type B TT" font-size="4.13" x="162.29" y="8.495000000000001">кг</tspan>
+    <tspan dy="-1em" font-family="OpenGost Type B TT" font-size="4.13" x="162.29" y="8.495000000000001">Масса ед.,</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" font-family="OpenGost Type B TT" font-size="4.13" x="184.86999999999998" y="8.495000000000001">Примечание</tspan>
+  </text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="15.990000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="15.990000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="19.995">Фундамент монолитный ФМ-1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="19.995">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="15.990000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="15.990000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="28.005">А-1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="28.005">данный лист</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="28.005">Анкерный блок А-1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="28.005">1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="28.005">28,64</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="24.0"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="32.01"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="36.015">ГОСТ 26633-2015</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="36.015">Бетон B25</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="36.015">1,035</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="32.01"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="36.015">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="40.019999999999996"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="44.025"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="40.019999999999996"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="44.025">ГОСТ 26633-2015</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="40.019999999999996"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="44.025">Бетон B15</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="40.019999999999996"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="44.025">0,384</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="40.019999999999996"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="40.019999999999996"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="44.025">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="48.029999999999994"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="48.029999999999994"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="52.035">ГОСТ 28013-98</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="48.029999999999994"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="52.035">Раствор M100</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="48.029999999999994"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="52.035">0,015</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="48.029999999999994"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="48.029999999999994"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="52.035">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="56.03999999999999"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="56.03999999999999"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="60.044999999999995">ГОСТ 8267-93</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="56.03999999999999"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="60.044999999999995">Щебень</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="56.03999999999999"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="60.044999999999995">0,256</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="56.03999999999999"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="56.03999999999999"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="60.044999999999995">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="64.05"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="64.05"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="64.05"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="68.05499999999999">Фундамент монолитный ФМ-2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="64.05"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="68.05499999999999">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="64.05"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="64.05"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="72.06"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="76.065">А-2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="72.06"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="76.065">данный лист</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="72.06"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="76.065">Анкерный блок А-2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="72.06"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="76.065">1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="72.06"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="76.065">14,32</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="72.06"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="80.07000000000001"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="80.07000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="84.075">ГОСТ 26633-2015</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="80.07000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="84.075">Бетон B25</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="80.07000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="84.075">0,765</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="80.07000000000001"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="80.07000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="84.075">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="88.08000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="92.08500000000001"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="88.08000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="92.08500000000001">ГОСТ 26633-2015</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="88.08000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="92.08500000000001">Бетон B15</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="88.08000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="92.08500000000001">0,24</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="88.08000000000001"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="88.08000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="92.08500000000001">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="96.09000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="96.09000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="100.09500000000001">ГОСТ 28013-98</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="96.09000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="100.09500000000001">Раствор M100</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="96.09000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="100.09500000000001">0,015</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="96.09000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="96.09000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="100.09500000000001">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="104.10000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="104.10000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="108.10500000000002">ГОСТ 8267-93</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="104.10000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="108.10500000000002">Щебень</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="104.10000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="108.10500000000002">0,16</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="104.10000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="104.10000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="184.86999999999998" y="108.10500000000002">м³</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="112.11000000000003"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="112.11000000000003"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="112.11000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="116.11500000000002">Анкерный блок А-1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="112.11000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="116.11500000000002">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="112.11000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="116.11500000000002">28,64</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="112.11000000000003"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="120.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="124.12500000000003">1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="120.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="124.12500000000003">ГОСТ 24379.1-2012</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="120.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="124.12500000000003">Болт 1.1.М24×1320 09Г2С ГОСТ 24379.1-2012</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="120.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="124.12500000000003">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="120.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="124.12500000000003">5,28</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="120.12000000000003"/>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="128.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="134.12500000000003">2</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="128.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="134.12500000000003">ГОСТ 8509-93</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="128.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="0" text-anchor="start">
+    <tspan dy="-0em" font-family="OpenGost Type B TT" font-size="4.13" x="77.0" y="134.12500000000003">ГОСТ 27772-2021 L=500</tspan>
+    <tspan dy="-1em" font-family="OpenGost Type B TT" font-size="4.13" x="77.0" y="134.12500000000003">Уголок 50×5 ГОСТ 8509-93/С345-5</tspan>
+  </text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="128.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="134.12500000000003">4</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="128.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="134.12500000000003">1,88</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="128.13000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="140.12000000000003"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="140.12000000000003"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="140.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="144.12500000000003">Анкерный блок А-2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="140.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="144.12500000000003">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="140.12000000000003"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="144.12500000000003">14,32</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="140.12000000000003"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="148.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="152.13500000000002">1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="148.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="152.13500000000002">ГОСТ 24379.1-2012</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="148.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="start" x="77.0" y="152.13500000000002">Болт 1.1.М24×1320 09Г2С ГОСТ 24379.1-2012</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="148.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="152.13500000000002">2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="148.13000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="152.13500000000002">5,28</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="148.13000000000002"/>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="156.14000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="162.13500000000002">2</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="156.14000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="162.13500000000002">ГОСТ 8509-93</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="156.14000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="0" text-anchor="start">
+    <tspan dy="-0em" font-family="OpenGost Type B TT" font-size="4.13" x="77.0" y="162.13500000000002">ГОСТ 27772-2021 L=500</tspan>
+    <tspan dy="-1em" font-family="OpenGost Type B TT" font-size="4.13" x="77.0" y="162.13500000000002">Уголок 50×5 ГОСТ 8509-93/С345-5</tspan>
+  </text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="156.14000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="162.13500000000002">2</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="156.14000000000001"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="162.29" y="162.13500000000002">1,88</text>
+  <rect height="11.99" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="156.14000000000001"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="168.13000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="168.13000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="168.13000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="168.13000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="168.13000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="168.13000000000002"/>
+</svg>

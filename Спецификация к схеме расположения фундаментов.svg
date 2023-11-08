@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="full" height="41.019999999999996mm" id="root" version="1.1" viewBox="0 0 197.15999999999997 41.019999999999996" width="197.15999999999997mm">
+  <defs/>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="8.495000000000001">Поз.</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="8.495000000000001">Обозначение</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="8.495000000000001">Наименование</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="8.495000000000001">Кол.</text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" font-family="OpenGost Type B TT" font-size="4.13" x="162.29" y="8.495000000000001">кг</tspan>
+    <tspan dy="-1em" font-family="OpenGost Type B TT" font-size="4.13" x="162.29" y="8.495000000000001">Масса ед.,</tspan>
+  </text>
+  <rect height="14.990000000000002" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="1"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="0" text-anchor="middle">
+    <tspan dy="-0em" font-family="OpenGost Type B TT" font-size="4.13" x="184.86999999999998" y="8.495000000000001">Примечание</tspan>
+  </text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="15.990000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="19.995">ФМ-1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="15.990000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="19.995">данный лист</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="19.995">Фундамент монолитный ФМ-1</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="15.990000000000002"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="19.995">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="15.990000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="15.990000000000002"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="28.005">ФМ-2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="45.995000000000005" y="28.005">данный лист</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="28.005">Фундамент монолитный ФМ-2</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="24.0"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="28.005">4</text>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="24.0"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="24.0"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="14.990000000000002" x="1" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="8.495000000000001" y="36.015"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="60.010000000000005" x="15.990000000000002" y="32.01"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="65.0" x="76.0" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="108.5" y="36.015"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="10.0" x="141.0" y="32.01"/>
+  <text dominant-baseline="middle" font-family="OpenGost Type B TT" font-size="4.13" text-anchor="middle" x="146.0" y="36.015"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="151.0" y="32.01"/>
+  <rect height="8.01" style="fill: #ffffff; stroke-width:.125; stroke: #000000;" width="22.58" x="173.57999999999998" y="32.01"/>
+</svg>
