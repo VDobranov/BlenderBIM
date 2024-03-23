@@ -1,3 +1,5 @@
+import bpy
+
 import math
 # import numpy
 import ifcopenshell as ios
@@ -7,10 +9,13 @@ from ifcopenshell.util import representation
 f = './TEMPLATE.ifc'
 f1 = './AGGREGATE.ifc'
 
-model = ios.open(f)
+model: ios.file = ios.open(f)
 
 body = representation.get_context(model, "Model", "Body", "MODEL_VIEW")
 history = model.by_type("IfcOwnerHistory")[0]
+site = model.by_type('IfcSite')[0]
+storey = model.by_type('IfcBuildingStorey')[0]
+origin = model.by_type('IfcCartesianPoint')[0]
 
 placement3d = model.by_type("IfcAxis2Placement3D")[0]
 placement2d = model.by_type("IfcAxis2Placement2D")[0]
@@ -20,25 +25,25 @@ dir_z = model.createIfcDirection([0.0, 0.0, 1.0])
 
 material = model.by_type("IfcMaterial")
 
-bolt_types = dict()
-stud_types = dict()
-nut_types = dict()
-washer_types = dict()
+bolt_types: dict[str, ios.entity_instance] = dict()
+stud_types: dict[str, ios.entity_instance] = dict()
+nut_types: dict[str, ios.entity_instance] = dict()
+washer_types: dict[str, ios.entity_instance] = dict()
 
-bolt_dim = dict()
-nut_dim = dict()
-washer_dim = dict()
+bolt_dim: dict[str, list[float]] = dict()
+nut_dim: dict[str, list[float]] = dict()
+washer_dim: dict[str, list[float]] = dict()
 exec(open('./DIM.py').read())
 
-local_placements = dict()
+local_placements: dict[str, ios.entity_instance] = dict()
 
-def create_IfcArbitraryClosedProfileDef(ProfileName, OuterCurve):
-    return model.createIfcArbitraryClosedProfileDef("AREA", ProfileName, OuterCurve)
+# def create_IfcArbitraryClosedProfileDef(ProfileName: str, OuterCurve: ios.entity_instance):
+#     return model.createIfcArbitraryClosedProfileDef("AREA", ProfileName, OuterCurve)
 
-def create_IfcArbitraryProfileDefWithVoids(ProfileName, OuterCurve, InnerCurves):
+def create_IfcArbitraryProfileDefWithVoids(ProfileName: str, OuterCurve: ios.entity_instance, InnerCurves: ios.entity_instance):
     return model.createIfcArbitraryProfileDefWithVoids("AREA", ProfileName, OuterCurve, InnerCurves)
 
-def create_IfcExtrudedAreaSolid(SweptArea, Depth):
+def create_IfcExtrudedAreaSolid(SweptArea: ios.entity_instance, Depth: float):
     return model.createIfcExtrudedAreaSolid(SweptArea, None, dir_z, Depth)
 
 def create_IfcSweptDiskSolid(Directrix, Radius):
@@ -222,6 +227,30 @@ def create_FoundationBoltType(L,d,l0):
         "AssemblyPlace": "SITE",
         "OperationalDocument": "ГОСТ 24379.1-2012"
         })
+    bolt_types[f"{d}_{L}"] = bolt
+
+def create_FoundationBolt(L,d,l0):
+    bolt_type = bolt_types[f"{d}_{L}"]
+    bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
+    run("type.assign_type", model, related_object=bolt, relating_type=bolt_type)
+    run("geometry.edit_object_placement", model, product=bolt)
+    run("attribute.edit_attributes", model, product=bolt, attributes={
+        "Name": bolt_type.Name,
+        "ObjectType": bolt_type.ElementType,
+        "PredefinedType": bolt_type.PredefinedType
+        })
+    run("spatial.assign_container", model,product=bolt,relating_structure=storey)
+    stud = create_FoundationStud(d,L)
+    run("aggregate.assign_object", model, product=stud, relating_object=bolt)
+    offset_height = 30.
+    washer = create_FoundationWasher(d,offset_height)
+    run("aggregate.assign_object", model, product=washer, relating_object=bolt)
+    offset_height += washer_dim[f"{d}"][3]
+    for n in range(2):
+        nut = create_FoundationNut(d,offset_height)
+        run("aggregate.assign_object", model, product=nut, relating_object=bolt)
+        offset_height += nut_dim[f"{d}"][2]
+    return bolt
 
 # ass = run("root.create_entity", model, ifc_class="IfcElementAssemblyType", name="assembly", predefined_type="ANCHORBOLT_GROUP")
 
@@ -241,4 +270,70 @@ for v in bolt_dim.values():
     create_FoundationStudType(v[0],v[1],v[2],v[3],v[4])
     create_FoundationBoltType(v[0],v[3],v[4])
 
+diams: set[float] = set()
+lengths: set[float] = set()
+for v in bolt_dim.values():
+    diams.add(v[3])
+    lengths.add(v[0])
+
+diams = sorted((diams))
+lengths = sorted(lengths)
+
+print(diams)
+print(lengths)
+
+gridpoints: dict[str, list[ios.entity_instance, float, float]] = {}
+for d in diams:
+    for l in lengths:
+        gridpoints[f"{d}_{l}"] = [model.createIfcCartesianPoint([lengths.index(l)*1000.,diams.index(d)*1000.,0.]), d, l]
+
+print(gridpoints)
+
+for k in gridpoints.keys():
+    if k in bolt_dim.keys():
+        v = bolt_dim[k]
+        _bolt = create_FoundationBolt(v[0],v[3],v[4])
+        _placement = model.createIfcAxis2placement3d(gridpoints[k][0])
+        _bolt.ObjectPlacement.RelativePlacement=_placement
+
+# bolt = create_FoundationBolt(1000,20,100)
+
+# _point=model.createIfcCartesianPoint([0.,2500.,0.])
+# _placement = model.createIfcAxis2placement3d(_point)
+# bolt.ObjectPlacement.RelativePlacement=_placement
+
+grid = run("root.create_entity", model, ifc_class="IfcGrid")
+run("spatial.assign_container", model, product=grid, relating_structure=site)
+
+for d in diams:
+    axis = run("grid.create_grid_axis", model, axis_tag=f"M{d}", uvw_axes="UAxes", grid=grid)
+    start = gridpoints[f"{d}_{min(lengths)}"][0]
+    end = gridpoints[f"{d}_{max(lengths)}"][0]
+    axis.AxisCurve = model.createIfcPolyline([start, end])
+
+for l in lengths:
+    axis = run("grid.create_grid_axis", model, axis_tag=f"{l}", uvw_axes="VAxes", grid=grid)
+    start = gridpoints[f"{min(diams)}_{l}"][0]
+    end = gridpoints[f"{max(diams)}_{l}"][0]
+    axis.AxisCurve = model.createIfcPolyline([start, end])
+
+
+
 model.write(f1)
+
+
+
+
+
+
+def load_ifc_automatically(f):
+    if (bool(f)) == True:
+        # _project = f.by_type('IfcProject')
+        _collection=bpy.data.scenes[0].collection
+        for _col in _collection.children_recursive:
+            bpy.data.collections.remove(_col)
+
+        bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
+        bpy.ops.bim.load_project(filepath=f1, should_start_fresh_session=False)
+
+load_ifc_automatically(model)
