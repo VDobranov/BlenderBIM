@@ -285,7 +285,7 @@ print(lengths)
 gridpoints: dict[str, list[ios.entity_instance, float, float]] = {}
 for d in diams:
     for l in lengths:
-        gridpoints[f"{d}_{l}"] = [model.createIfcCartesianPoint([lengths.index(l)*1000.,diams.index(d)*1000.,0.]), d, l]
+        gridpoints[f"{d}_{l}"] = [model.createIfcCartesianPoint([lengths.index(l)*500.,diams.index(d)*500.,0.]), d, l]
 
 print(gridpoints)
 
