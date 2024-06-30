@@ -1,12 +1,14 @@
-import bpy
-
+from typing import Any
+import bpy # type: ignore
 import math
 # import numpy
 import ifcopenshell as ios
+from ifcopenshell import entity_instance
 from ifcopenshell.api import run
 from ifcopenshell.util import representation
 
 f = './TEMPLATE.ifc'
+# f = './TEMPLATE_2X3.ifc'
 f1 = './AGGREGATE.ifc'
 
 model: ios.file = ios.open(f)
@@ -23,33 +25,33 @@ dir_x = model.createIfcDirection([1.0, 0.0, 0.0])
 dir_z = model.createIfcDirection([0.0, 0.0, 1.0])
 # matrix = numpy.eye(4)
 
-material = model.by_type("IfcMaterial")
+# material = model.by_type("IfcMaterial")
 
-bolt_types: dict[str, ios.entity_instance] = dict()
-stud_types: dict[str, ios.entity_instance] = dict()
-nut_types: dict[str, ios.entity_instance] = dict()
-washer_types: dict[str, ios.entity_instance] = dict()
+bolt_types: dict[str, entity_instance] = dict()
+stud_types: dict[str, entity_instance] = dict()
+nut_types: dict[str, entity_instance] = dict()
+washer_types: dict[str, entity_instance] = dict()
 
 bolt_dim: dict[str, list[float]] = dict()
 nut_dim: dict[str, list[float]] = dict()
 washer_dim: dict[str, list[float]] = dict()
 exec(open('./DIM.py').read())
 
-local_placements: dict[str, ios.entity_instance] = dict()
+local_placements: dict[str, entity_instance] = dict()
 
-# def create_IfcArbitraryClosedProfileDef(ProfileName: str, OuterCurve: ios.entity_instance):
+# def create_IfcArbitraryClosedProfileDef(ProfileName: str, OuterCurve: entity_instance):
 #     return model.createIfcArbitraryClosedProfileDef("AREA", ProfileName, OuterCurve)
 
-def create_IfcArbitraryProfileDefWithVoids(ProfileName: str, OuterCurve: ios.entity_instance, InnerCurves: ios.entity_instance):
+def create_IfcArbitraryProfileDefWithVoids(ProfileName: str, OuterCurve: entity_instance, InnerCurves: list[entity_instance]) -> entity_instance:
     return model.createIfcArbitraryProfileDefWithVoids("AREA", ProfileName, OuterCurve, InnerCurves)
 
-def create_IfcExtrudedAreaSolid(SweptArea: ios.entity_instance, Depth: float):
+def create_IfcExtrudedAreaSolid(SweptArea: entity_instance, Depth: float) -> entity_instance:
     return model.createIfcExtrudedAreaSolid(SweptArea, None, dir_z, Depth)
 
-def create_IfcSweptDiskSolid(Directrix, Radius):
+def create_IfcSweptDiskSolid(Directrix, Radius) -> entity_instance:
     return model.createIfcSweptDiskSolid(Directrix, Radius, None, None, None)
 
-def create_IfcCartesianPointList2D_stud(L,l,R,d):
+def create_IfcCartesianPointList2D_stud(L,l,R,d) -> entity_instance:
     ll = L-d/2
     r = R+d/2
     p1 = 0.0,0.0,0.0
@@ -59,16 +61,16 @@ def create_IfcCartesianPointList2D_stud(L,l,R,d):
     p5 = d/2+l,0.0,0.0-ll
     return model.createIfcCartesianPointList3D([p1,p2,p3,p4,p5])
 
-def create_Segments_stud():
+def create_Segments_stud() -> list[entity_instance]:
     s1 = model.createIfcLineIndex([1,2])
     s2 = model.createIfcArcIndex([2,3,4])
     s3 = model.createIfcLineIndex([4,5])
     return [s1,s2,s3]
 
-def create_IfcIndexedPolyCurve_stud(Points, Segments):
+def create_IfcIndexedPolyCurve_stud(Points, Segments) -> entity_instance:
     return model.createIfcIndexedPolyCurve(Points, Segments)
 
-def create_IfcCartesianPointList2D_hexagon(S):
+def create_IfcCartesianPointList2D_hexagon(S) -> entity_instance:
     R = S/math.sqrt(3)
     p1 = 0.0, R
     p2 = S/2, R/2
@@ -78,7 +80,7 @@ def create_IfcCartesianPointList2D_hexagon(S):
     p6 = -S/2, R/2
     return model.createIfcCartesianPointList2D([p1,p2,p3,p4,p5,p6])
 
-def create_Segments_hexagon():
+def create_Segments_hexagon() -> list[entity_instance]:
     s1 = model.createIfcLineIndex([1,2])
     s2 = model.createIfcLineIndex([2,3])
     s3 = model.createIfcLineIndex([3,4])
@@ -87,13 +89,13 @@ def create_Segments_hexagon():
     s6 = model.createIfcLineIndex([6,1])
     return [s1,s2,s3,s4,s5,s6]
 
-def create_IfcIndexedPolyCurve_hexagon(Points, Segments):
+def create_IfcIndexedPolyCurve_hexagon(Points, Segments) -> entity_instance:
     return model.createIfcIndexedPolyCurve(Points, Segments)
 
-def create_IfcCircle(Radius):
+def create_IfcCircle(Radius) -> entity_instance:
     return model.createIfcCircle(placement2d, Radius)
 
-def create_LocalPlacement(offset):
+def create_LocalPlacement(offset) -> entity_instance:
     if f"{offset}" not in local_placements:
         offset = model.createIfcCartesianPoint([0.0,0.0,offset])
         placement = model.createIfcAxis2placement3d(offset, dir_z, dir_x)
@@ -127,7 +129,7 @@ def create_FoundationNutType(d, S, m):
     nut.NominalDiameter = d
     plist = create_IfcCartesianPointList2D_hexagon(S)
     pcurve = create_IfcIndexedPolyCurve_hexagon(plist, create_Segments_hexagon())
-    circle = create_IfcCircle(d/2)
+    circle: entity_instance = create_IfcCircle(d/2)
     # profile = create_IfcArbitraryClosedProfileDef(f"Гайка М{d}", pcurve)
     profile = create_IfcArbitraryProfileDefWithVoids(f"Гайка М{d}", pcurve, [circle])
     eas = create_IfcExtrudedAreaSolid(profile, m)
@@ -153,10 +155,10 @@ def create_FoundationWasherType(d, d0, D, s):
     washer.RepresentationMaps = [representationmap]
     washer_types[f"{d}"] = washer
 
-def create_FoundationStud(d,L):
+def create_FoundationStud(d,L) -> entity_instance:
     stud_type = stud_types[f"{d}_{L}"]
     stud = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
-    run("type.assign_type", model, related_object=stud, relating_type=stud_type)
+    run("type.assign_type", model, related_objects=[stud], relating_type=stud_type)
     run("geometry.edit_object_placement", model, product=stud)
     run("attribute.edit_attributes", model, product=stud, attributes={
         "Name": stud_type.Name,
@@ -167,11 +169,11 @@ def create_FoundationStud(d,L):
         })
     return stud
 
-def create_FoundationNut(d,offset_height):
+def create_FoundationNut(d,offset_height) -> entity_instance:
     nut_type = nut_types[f"{d}"]
     nut = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
     local_placement = create_LocalPlacement(offset_height)
-    run("type.assign_type", model, related_object=nut, relating_type=nut_type)
+    run("type.assign_type", model, related_objects=[nut], relating_type=nut_type)
     # run("geometry.edit_object_placement", model, product=nut, matrix=matrix, is_si=False)
     run("attribute.edit_attributes", model, product=nut, attributes={
         "Name": nut_type.Name,
@@ -182,11 +184,11 @@ def create_FoundationNut(d,offset_height):
         })
     return nut
 
-def create_FoundationWasher(d,offset_height):
+def create_FoundationWasher(d,offset_height) -> entity_instance:
     washer_type = washer_types[f"{d}"]
     washer = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
     local_placement = create_LocalPlacement(offset_height)
-    run("type.assign_type", model, related_object=washer, relating_type=washer_type)
+    run("type.assign_type", model, related_objects=[washer], relating_type=washer_type)
     run("attribute.edit_attributes", model, product=washer, attributes={
         "Name": washer_type.Name,
         "ObjectPlacement": local_placement,
@@ -199,14 +201,14 @@ def create_FoundationWasher(d,offset_height):
 def create_FoundationBoltType(L,d,l0):
     bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Болт 1.1.М{d}×{L} ГОСТ 24379.1-2012")
     stud = create_FoundationStud(d,L)
-    run("aggregate.assign_object", model, product=stud, relating_object=bolt)
+    run("aggregate.assign_object", model, products=[stud], relating_object=bolt)
     offset_height = 30.
     washer = create_FoundationWasher(d,offset_height)
-    run("aggregate.assign_object", model, product=washer, relating_object=bolt)
+    run("aggregate.assign_object", model, products=[washer], relating_object=bolt)
     offset_height += washer_dim[f"{d}"][3]
     for n in range(2):
         nut = create_FoundationNut(d,offset_height)
-        run("aggregate.assign_object", model, product=nut, relating_object=bolt)
+        run("aggregate.assign_object", model, products=[nut], relating_object=bolt)
         offset_height += nut_dim[f"{d}"][2]
     pset1 = run("pset.add_pset", model, product=bolt, name="Pset_MechanicalFastenerAnchorBolt")
     pset2 = run("pset.add_pset", model, product=bolt, name="Pset_ElementComponentCommon")
@@ -229,26 +231,26 @@ def create_FoundationBoltType(L,d,l0):
         })
     bolt_types[f"{d}_{L}"] = bolt
 
-def create_FoundationBolt(L,d,l0):
+def create_FoundationBolt(L,d,l0) -> entity_instance:
     bolt_type = bolt_types[f"{d}_{L}"]
     bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
-    run("type.assign_type", model, related_object=bolt, relating_type=bolt_type)
+    run("type.assign_type", model, related_objects=[bolt], relating_type=bolt_type)
     run("geometry.edit_object_placement", model, product=bolt)
     run("attribute.edit_attributes", model, product=bolt, attributes={
         "Name": bolt_type.Name,
         "ObjectType": bolt_type.ElementType,
         "PredefinedType": bolt_type.PredefinedType
         })
-    run("spatial.assign_container", model,product=bolt,relating_structure=storey)
+    run("spatial.assign_container", model,products=[bolt],relating_structure=storey)
     stud = create_FoundationStud(d,L)
-    run("aggregate.assign_object", model, product=stud, relating_object=bolt)
+    run("aggregate.assign_object", model, products=[stud], relating_object=bolt)
     offset_height = 30.
     washer = create_FoundationWasher(d,offset_height)
-    run("aggregate.assign_object", model, product=washer, relating_object=bolt)
+    run("aggregate.assign_object", model, products=[washer], relating_object=bolt)
     offset_height += washer_dim[f"{d}"][3]
     for n in range(2):
         nut = create_FoundationNut(d,offset_height)
-        run("aggregate.assign_object", model, product=nut, relating_object=bolt)
+        run("aggregate.assign_object", model, products=[nut], relating_object=bolt)
         offset_height += nut_dim[f"{d}"][2]
     return bolt
 
@@ -270,22 +272,22 @@ for v in bolt_dim.values():
     create_FoundationStudType(v[0],v[1],v[2],v[3],v[4])
     create_FoundationBoltType(v[0],v[3],v[4])
 
-diams: set[float] = set()
-lengths: set[float] = set()
+diams_set: set[float] = set()
+lengths_set: set[float] = set()
 for v in bolt_dim.values():
-    diams.add(v[3])
-    lengths.add(v[0])
+    diams_set.add(v[3])
+    lengths_set.add(v[0])
 
-diams = sorted((diams))
-lengths = sorted(lengths)
+diams = sorted(diams_set)
+lengths = sorted(lengths_set)
 
 print(diams)
 print(lengths)
 
-gridpoints: dict[str, list[ios.entity_instance, float, float]] = {}
+gridpoints: dict[str, list[Any]] = {}
 for d in diams:
     for l in lengths:
-        gridpoints[f"{d}_{l}"] = [model.createIfcCartesianPoint([lengths.index(l)*500.,diams.index(d)*500.,0.]), d, l]
+        gridpoints[f"{d}_{l}"] = [model.createIfcCartesianPoint([lengths.index(l)*200.,diams.index(d)*200.,0.]), d, l]
 
 print(gridpoints)
 
@@ -303,7 +305,7 @@ for k in gridpoints.keys():
 # bolt.ObjectPlacement.RelativePlacement=_placement
 
 grid = run("root.create_entity", model, ifc_class="IfcGrid")
-run("spatial.assign_container", model, product=grid, relating_structure=site)
+run("spatial.assign_container", model, products=[grid], relating_structure=site)
 
 for d in diams:
     axis = run("grid.create_grid_axis", model, axis_tag=f"M{d}", uvw_axes="UAxes", grid=grid)
@@ -329,11 +331,11 @@ model.write(f1)
 def load_ifc_automatically(f):
     if (bool(f)) == True:
         # _project = f.by_type('IfcProject')
-        _collection=bpy.data.scenes[0].collection
+        _collection=bpy.data.scenes[0].collection # type: ignore
         for _col in _collection.children_recursive:
-            bpy.data.collections.remove(_col)
+            bpy.data.collections.remove(_col) # type: ignore
 
-        bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
-        bpy.ops.bim.load_project(filepath=f1, should_start_fresh_session=False)
+        bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True) # type: ignore
+        bpy.ops.bim.load_project(filepath=f1, should_start_fresh_session=False) # type: ignore
 
-load_ifc_automatically(model)
+# load_ifc_automatically(model)

@@ -1,6 +1,8 @@
 import math
+from typing import Any
 
 import ifcopenshell as ios
+from ifcopenshell import entity_instance, guid
 from ifcopenshell.api import run
 from ifcopenshell.util import representation
 from ifcopenshell.util import element
@@ -27,7 +29,7 @@ washer_type = [x for x in mechFasteners if x.ElementType == "WASHER"][0]
 
 # print(washer_type.RepresentationMaps[0].MappedRepresentation.Items[0].Depth)
 
-local_placements = dict()
+local_placements: dict[str, entity_instance]
 
 def create_IfcArbitraryClosedProfileDef(ProfileName, OuterCurve):
     return model.createIfcArbitraryClosedProfileDef("AREA", ProfileName, OuterCurve)
@@ -60,13 +62,13 @@ def create_Segments_hexagon():
     s6 = model.createIfcLineIndex([6,1])
     return [s1,s2,s3,s4,s5,s6]
 
-def create_IfcIndexedPolyCurve_hexagon(Points, Segments):
+def create_IfcIndexedPolyCurve_hexagon(Points, Segments) -> entity_instance:
     return model.createIfcIndexedPolyCurve(Points, Segments)
 
-def create_IfcCircle(Radius):
+def create_IfcCircle(Radius) -> entity_instance:
     return model.createIfcCircle(placement2d, Radius)
 
-def create_LocalPlacement(offset):
+def create_LocalPlacement(offset) -> entity_instance:
     if f"{offset}" not in local_placements:
         offset = model.createIfcCartesianPoint([0.0,0.0,offset])
         placement = model.createIfcAxis2placement3d(offset, dir_z, dir_x)
@@ -76,7 +78,7 @@ def create_LocalPlacement(offset):
         local_placement = local_placements[f"{offset}"]
     return local_placement
 
-def create_FoundationStud(offset_height):
+def create_FoundationStud(offset_height) -> entity_instance:
     stud = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
     local_placement = create_LocalPlacement(offset_height)
     run("type.assign_type", model, related_object=stud, relating_type=stud_type)
@@ -91,7 +93,7 @@ def create_FoundationStud(offset_height):
         })
     return stud
 
-def create_FoundationNut(offset_height):
+def create_FoundationNut(offset_height) -> entity_instance:
     nut = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
     local_placement = create_LocalPlacement(offset_height)
     run("type.assign_type", model, related_object=nut, relating_type=nut_type)
@@ -104,7 +106,7 @@ def create_FoundationNut(offset_height):
         })
     return nut
 
-def create_FoundationWasher(offset_height):
+def create_FoundationWasher(offset_height) -> entity_instance:
     washer = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
     local_placement = create_LocalPlacement(offset_height)
     run("type.assign_type", model, related_object=washer, relating_type=washer_type)
@@ -117,7 +119,7 @@ def create_FoundationWasher(offset_height):
         })
     return washer
 
-def create_FoundationBoltType():
+def create_FoundationBoltType() -> entity_instance:
     bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="ANCHORBOLT", name=f"Bolt")
     offset_height = 100.
     stud = create_FoundationStud(offset_height)
@@ -131,7 +133,7 @@ def create_FoundationBoltType():
         run("aggregate.assign_object", model, product=nut, relating_object=bolt)
     return bolt
 
-def create_FoundationBolt():
+def create_FoundationBolt() -> entity_instance:
     bolt = run("root.create_entity", model, ifc_class="IfcMechanicalFastener")
     run("type.assign_type", model, related_object=bolt, relating_type=bolt_type)
     run("aggregate.assign_object", model, product=bolt, relating_object=storey)
@@ -152,7 +154,7 @@ def assign_object(related_object, relating_object):
     model.create_entity(
         "IfcRelDefinesByObject",
         **{
-            "GlobalId": ios.guid.new(),
+            "GlobalId": guid.new(),
             "OwnerHistory": run("owner.create_owner_history", model),
             "RelatedObjects": [related_object],
             "RelatingObject": relating_object,
@@ -183,7 +185,7 @@ def assign_object(related_object, relating_object):
             type="IfcMaterialProfileSetUsage",
         )
 
-bolt_type = create_FoundationBoltType()
+bolt_type: entity_instance = create_FoundationBoltType()
 create_FoundationBolt()
 
 model.write(f1)

@@ -49,7 +49,7 @@ def create_IfcIndexedPolyCurve(Points, Segments):
 def create_IfcCircle(Radius):
     return model.createIfcCircle(placement2d, Radius)
 
-def create_FoundationNut(d, S, m):
+def create_FoundationNut(d: float, S: float, m: float):
     nut = run("root.create_entity", model, ifc_class="IfcMechanicalFastenerType", predefined_type="NUT", name=f"Гайка М{d} ГОСТ 5915-70")
     nut.NominalDiameter = d
     plist = create_IfcCartesianPointList2D(S)
@@ -67,7 +67,7 @@ def create_FoundationNut(d, S, m):
 
 # create_FoundationNut(20,30,18)
 
-gost = [[12, 18, 10.8],
+gost: list[list[float]] = [[12, 18, 10.8],
 [16, 24, 14.8],
 [20, 30, 18],
 [24, 36, 21.5],
@@ -76,7 +76,7 @@ gost = [[12, 18, 10.8],
 [42, 65, 34],
 [48, 75, 38]]
 
-for f in gost:
-    create_FoundationNut(f[0],f[1],f[2])
+for g in gost:
+    create_FoundationNut(g[0],g[1],g[2])
     
 model.write(f1)

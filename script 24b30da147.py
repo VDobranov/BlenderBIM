@@ -1,8 +1,7 @@
-import bpy
-
 import ifcopenshell
 from ifcopenshell.api import run
 from ifcopenshell.util import element
+import bpy # type: ignore
 
 f = r'./aggregate_test.ifc'
 f1 = r'./aggregate_test_.ifc'
@@ -43,11 +42,11 @@ model.write(f1)
 
 def load_ifc_automatically(f):
     if (bool(f)) == True:
-        _collection=bpy.data.scenes[0].collection
+        _collection=bpy.data.scenes[0].collection # type: ignore
         for _col in _collection.children_recursive:
-            bpy.data.collections.remove(_col)
+            bpy.data.collections.remove(_col) # type: ignore
 
-        bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True)
-        bpy.ops.bim.load_project(filepath=f1, should_start_fresh_session=False)
+        bpy.ops.outliner.orphans_purge(do_local_ids=True, do_linked_ids=True, do_recursive=True) # type: ignore
+        bpy.ops.bim.load_project(filepath=f1, should_start_fresh_session=False) # type: ignore
 
 load_ifc_automatically(model)
